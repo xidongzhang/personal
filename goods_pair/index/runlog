@@ -1,0 +1,182 @@
+
+Logging initialized using configuration in jar:file:/hadoop/hive-0.14.0/lib/hive-common-0.14.0.jar!/hive-log4j.properties
+Query ID = ml_20150908102323_4d506465-5354-488c-9ed9-dd8eced86ac3
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_201507111702_1110472, Tracking URL = http://jxq-job-01:50030/jobdetails.jsp?jobid=job_201507111702_1110472
+Kill Command = /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -kill job_201507111702_1110472
+Hadoop job information for Stage-1: number of mappers: 105; number of reducers: 0
+2015-09-08 10:23:50,607 Stage-1 map = 0%,  reduce = 0%
+2015-09-08 10:23:55,639 Stage-1 map = 16%,  reduce = 0%, Cumulative CPU 54.07 sec
+2015-09-08 10:23:56,644 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 134.26 sec
+2015-09-08 10:23:57,649 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 166.06 sec
+2015-09-08 10:23:58,654 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 188.21 sec
+2015-09-08 10:23:59,660 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 209.73 sec
+2015-09-08 10:24:00,665 Stage-1 map = 58%,  reduce = 0%, Cumulative CPU 225.63 sec
+2015-09-08 10:24:01,670 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 232.81 sec
+2015-09-08 10:24:02,676 Stage-1 map = 62%,  reduce = 0%, Cumulative CPU 240.74 sec
+2015-09-08 10:24:03,681 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 257.28 sec
+2015-09-08 10:24:04,686 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 268.64 sec
+2015-09-08 10:24:05,692 Stage-1 map = 73%,  reduce = 0%, Cumulative CPU 287.56 sec
+2015-09-08 10:24:06,697 Stage-1 map = 77%,  reduce = 0%, Cumulative CPU 305.19 sec
+2015-09-08 10:24:07,701 Stage-1 map = 82%,  reduce = 0%, Cumulative CPU 326.17 sec
+2015-09-08 10:24:08,706 Stage-1 map = 84%,  reduce = 0%, Cumulative CPU 333.54 sec
+2015-09-08 10:24:09,712 Stage-1 map = 85%,  reduce = 0%, Cumulative CPU 339.82 sec
+2015-09-08 10:24:10,717 Stage-1 map = 92%,  reduce = 0%, Cumulative CPU 367.72 sec
+2015-09-08 10:24:11,722 Stage-1 map = 96%,  reduce = 0%, Cumulative CPU 384.25 sec
+2015-09-08 10:24:13,732 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 387.13 sec
+2015-09-08 10:24:15,741 Stage-1 map = 98%,  reduce = 0%, Cumulative CPU 391.35 sec
+2015-09-08 10:24:35,827 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 404.24 sec
+2015-09-08 10:24:36,831 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 404.24 sec
+MapReduce Total cumulative CPU time: 6 minutes 44 seconds 240 msec
+Ended Job = job_201507111702_1110472
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 105   Cumulative CPU: 404.24 sec   HDFS Read: 29122576129 HDFS Write: 12247087 SUCCESS
+Total MapReduce CPU Time Spent: 6 minutes 44 seconds 240 msec
+OK
+Time taken: 53.72 seconds, Fetched: 2388101 row(s)
+Warning: $HADOOP_HOME is deprecated.
+
+Moved to trash: hdfs://jxq-nn-01:9000/user/chongweishen/recommend/pair_rec/index/inverted_index
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:25:00 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [InvertedMapper.py, InvertedReducer.py, brd_goods, utils.py, /hadoop/hive/lib/hive-exec-0.14.0.jar, /tmp/hadoop-ml/hadoop-unjar2265794569721503694/] [] /tmp/streamjob2617255354369918270.jar tmpDir=null
+15/09/08 10:25:05 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/09/08 10:25:05 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/09/08 10:25:05 INFO mapred.FileInputFormat: Total input paths to process : 43
+15/09/08 10:25:05 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/09/08 10:25:05 INFO streaming.StreamJob: Running job: job_201507111702_1110485
+15/09/08 10:25:05 INFO streaming.StreamJob: To kill this job, run:
+15/09/08 10:25:05 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201507111702_1110485
+15/09/08 10:25:05 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201507111702_1110485
+15/09/08 10:25:06 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/09/08 10:25:14 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/09/08 10:25:15 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/09/08 10:25:16 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/09/08 10:25:17 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/09/08 10:25:18 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/09/08 10:25:19 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/09/08 10:25:21 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/09/08 10:25:22 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/09/08 10:25:23 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/09/08 10:25:24 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/09/08 10:25:30 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/09/08 10:25:31 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/09/08 10:25:32 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/09/08 10:25:34 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/09/08 10:25:35 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/09/08 10:25:36 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/09/08 10:25:37 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/09/08 10:25:38 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/09/08 10:25:41 INFO streaming.StreamJob: Job complete: job_201507111702_1110485
+15/09/08 10:25:41 INFO streaming.StreamJob: Output: /user/chongweishen/recommend/pair_rec/index/inverted_index
+Warning: $HADOOP_HOME is deprecated.
+
+Moved to trash: hdfs://jxq-nn-01:9000/user/chongweishen/recommend/pair_rec/index/forward_index
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:25:43 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [ForwardMapper.py, goods_meta, utils.py, brd_goods, /hadoop/hive/lib/hive-exec-0.14.0.jar, /tmp/hadoop-ml/hadoop-unjar3069662219774458404/] [] /tmp/streamjob557591270091223916.jar tmpDir=null
+15/09/08 10:25:47 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/09/08 10:25:47 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/09/08 10:25:47 INFO mapred.FileInputFormat: Total input paths to process : 22
+15/09/08 10:25:48 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/09/08 10:25:48 INFO streaming.StreamJob: Running job: job_201507111702_1110491
+15/09/08 10:25:48 INFO streaming.StreamJob: To kill this job, run:
+15/09/08 10:25:48 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201507111702_1110491
+15/09/08 10:25:48 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201507111702_1110491
+15/09/08 10:25:49 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/09/08 10:25:58 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/09/08 10:25:59 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/09/08 10:26:00 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/09/08 10:26:01 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/09/08 10:26:02 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/09/08 10:26:03 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/09/08 10:26:04 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/09/08 10:26:05 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/09/08 10:26:06 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/09/08 10:26:07 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/09/08 10:26:08 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/09/08 10:26:15 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/09/08 10:26:19 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/09/08 10:26:19 INFO streaming.StreamJob: Job complete: job_201507111702_1110491
+15/09/08 10:26:19 INFO streaming.StreamJob: Output: /user/chongweishen/recommend/pair_rec/index/forward_index
+Warning: $HADOOP_HOME is deprecated.
+
+Moved to trash: hdfs://jxq-nn-01:9000/user/chongweishen/recommend/pair_rec/index/direct_index
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:26:22 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [DirectMapper.py, DirectReducer.py, brd_goods, goods_meta, utils.py, /hadoop/hive/lib/hive-exec-0.14.0.jar, /tmp/hadoop-ml/hadoop-unjar4961056215399047954/] [] /tmp/streamjob807062997700848572.jar tmpDir=null
+15/09/08 10:26:27 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/09/08 10:26:27 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/09/08 10:26:28 INFO mapred.FileInputFormat: Total input paths to process : 697
+15/09/08 10:26:28 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/09/08 10:26:28 INFO streaming.StreamJob: Running job: job_201507111702_1110496
+15/09/08 10:26:28 INFO streaming.StreamJob: To kill this job, run:
+15/09/08 10:26:28 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201507111702_1110496
+15/09/08 10:26:28 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201507111702_1110496
+15/09/08 10:26:29 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/09/08 10:26:41 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/09/08 10:26:42 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/09/08 10:26:43 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/09/08 10:26:44 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/09/08 10:26:45 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/09/08 10:26:46 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/09/08 10:26:47 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/09/08 10:26:48 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/09/08 10:26:49 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/09/08 10:26:51 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/09/08 10:26:52 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/09/08 10:26:53 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/09/08 10:26:54 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/09/08 10:26:55 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/09/08 10:26:56 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/09/08 10:26:57 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/09/08 10:26:58 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/09/08 10:27:00 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/09/08 10:27:04 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/09/08 10:27:05 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/09/08 10:27:09 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/09/08 10:27:10 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/09/08 10:27:11 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/09/08 10:27:12 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/09/08 10:27:13 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/09/08 10:27:14 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/09/08 10:27:15 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/09/08 10:27:16 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/09/08 10:27:17 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/09/08 10:27:19 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/09/08 10:27:20 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/09/08 10:27:31 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/09/08 10:27:33 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/09/08 10:27:34 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/09/08 10:27:35 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/09/08 10:27:41 INFO streaming.StreamJob: Job complete: job_201507111702_1110496
+15/09/08 10:27:41 INFO streaming.StreamJob: Output: /user/chongweishen/recommend/pair_rec/index/direct_index
+['Main.py', '-root_path', '/user/chongweishen/recommend/pair_rec', '-day', '2015-09-07']
+root_path=/user/chongweishen/recommend/pair_rec 	day=2015-09-07 	
+
+
+/hadoop/hadoop/bin/hadoop jar /hadoop/hadoop/contrib/streaming/hadoop-streaming-1.2.2-SNAPSHOT.jar  -file InvertedMapper.py -file InvertedReducer.py -file brd_goods -file utils.py -file /hadoop/hive/lib/hive-exec-0.14.0.jar -mapper "python InvertedMapper.py" -reducer "python InvertedReducer.py" -jobconf mapred.reduce.tasks=497 -input /user/chongweishen/recommend/pair_rec/index/forward_index -output /user/chongweishen/recommend/pair_rec/index/inverted_index -jobconf mapred.job.priority=HIGH -jobconf mapred.job.map.capacity=800 -jobconf mapred.job.reduce.capacity=800 -jobconf mapred.output.compress=false -jobconf stream.memory.limit=1000 -jobconf mapred.job.name="inverted_index"
+/hadoop/hadoop/bin/hadoop jar /hadoop/hadoop/contrib/streaming/hadoop-streaming-1.2.2-SNAPSHOT.jar  -file ForwardMapper.py -file goods_meta -file utils.py -file brd_goods -file /hadoop/hive/lib/hive-exec-0.14.0.jar -mapper "python ForwardMapper.py" -jobconf mapred.reduce.tasks=0 -input /user/chongweishen/recommend/pair_rec/nlp/goods_fea_tag -output /user/chongweishen/recommend/pair_rec/index/forward_index -jobconf mapred.job.priority=HIGH -jobconf mapred.job.map.capacity=800 -jobconf mapred.job.reduce.capacity=800 -jobconf mapred.output.compress=false -jobconf stream.memory.limit=1000 -jobconf mapred.job.name="forward_index"
+/hadoop/hadoop/bin/hadoop jar /hadoop/hadoop/contrib/streaming/hadoop-streaming-1.2.2-SNAPSHOT.jar  -file DirectMapper.py -file DirectReducer.py -file brd_goods -file goods_meta -file utils.py -file /hadoop/hive/lib/hive-exec-0.14.0.jar -mapper "python DirectMapper.py" -reducer "python DirectReducer.py" -jobconf mapred.reduce.tasks=497 -input /user/chongweishen/recommend/pair_rec/fea_data/format_fea -output /user/chongweishen/recommend/pair_rec/index/direct_index -jobconf mapred.job.priority=HIGH -jobconf mapred.job.map.capacity=800 -jobconf mapred.job.reduce.capacity=800 -jobconf mapred.output.compress=false -jobconf stream.memory.limit=1000 -jobconf mapred.job.name="direct_index"
+rm: cannot remove `direct_index': No such file or directory
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:27:42 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+15/09/08 10:27:43 WARN hdfs.DFSClient: Failed to connect to /10.6.7.11:50010, add to deadNodes and continuejava.io.IOException: Got error for OP_READ_BLOCK, self=/10.6.3.31:40532, remote=/10.6.7.11:50010, for file /user/chongweishen/recommend/pair_rec/index/direct_index/part-00273, for block -5910358953972760715_464988524
+15/09/08 10:27:43 WARN hdfs.DFSClient: Failed to connect to /10.6.2.31:50010, add to deadNodes and continuejava.io.IOException: Got error for OP_READ_BLOCK, self=/10.6.3.31:59889, remote=/10.6.2.31:50010, for file /user/chongweishen/recommend/pair_rec/index/direct_index/part-00306, for block 5294886572998277997_464988561
+15/09/08 10:27:44 WARN hdfs.DFSClient: Failed to connect to /10.6.6.24:50010, add to deadNodes and continuejava.io.IOException: Got error for OP_READ_BLOCK, self=/10.6.3.31:37285, remote=/10.6.6.24:50010, for file /user/chongweishen/recommend/pair_rec/index/direct_index/part-00330, for block 5511329309337068863_464988524
+15/09/08 10:27:44 WARN hdfs.DFSClient: Failed to connect to /10.6.2.75:50010, add to deadNodes and continuejava.io.IOException: Got error for OP_READ_BLOCK, self=/10.6.3.31:52443, remote=/10.6.2.75:50010, for file /user/chongweishen/recommend/pair_rec/index/direct_index/part-00332, for block 2691360780075174621_464988524
+15/09/08 10:27:44 WARN hdfs.DFSClient: Failed to connect to /10.6.6.33:50010, add to deadNodes and continuejava.io.IOException: Got error for OP_READ_BLOCK, self=/10.6.3.31:36220, remote=/10.6.6.33:50010, for file /user/chongweishen/recommend/pair_rec/index/direct_index/part-00427, for block -5797785825600634118_464988502
+rm: cannot remove `forward_index': No such file or directory
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:27:46 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+rm: cannot remove `inverted_index': No such file or directory
+Warning: $HADOOP_HOME is deprecated.
+
+15/09/08 10:27:49 INFO util.NativeCodeLoader: Loaded the native-hadoop library

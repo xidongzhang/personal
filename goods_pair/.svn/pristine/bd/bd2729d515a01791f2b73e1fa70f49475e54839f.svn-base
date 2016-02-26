@@ -1,0 +1,993 @@
+twitter_id
+shop_id  
+goods_src_price  
+discount_price  
+goods_ctime  
+goods_detail_cata_for_ctr  
+gmv_score  
+pic_score  
+style_score  
+rank_like  
+sale_num  
+goods_on_shelf  
+goods_satisfied  
+goods_dsr  
+goods_fashion  
+goods_quality  
+comment_num  
+shop_salenum  
+total_subscriber  
+discount_time
+discount_ratio
+style
+title_splits
+poster_word
+pos
+user_id
+matched_items
+matched_len
+unmatched_items
+unmatched_len
+similarity
+goods_detail_cata_for_ctr#discount_price
+user_id#discount_price
+user_id#style
+poster_word#style
+user_id#shop_id
+user_id#twitter_id
+1a66cccc0dfa80ead8ce8beb0535e685756f3d85	1.0:0.0	1
+poster_word&gin sungdo	1	2
+poster_word&gin sungdo	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&新款	1	2
+title_splits&新款	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&羊毛	1	2
+title_splits&羊毛	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+rank_like  &10	1	2
+rank_like  &10	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+unmatched_items&	1	2
+unmatched_items&	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+user_id&79682659#twitter_id&2166037247	1	2
+user_id&79682659#twitter_id&2166037247	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&独立	1	2
+title_splits&独立	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+unmatched_len&0	1	2
+unmatched_len&0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&春秋	1	2
+title_splits&春秋	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&收腰	1	2
+title_splits&收腰	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+twitter_id&2166037247	1	2
+twitter_id&2166037247	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+shop_salenum  &1	1	2
+shop_salenum  &1	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+comment_num  &0.0	1	2
+comment_num  &0.0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+discount_time&50	1	2
+discount_time&50	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&sungdo	1	2
+title_splits&sungdo	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+sale_num  &0	1	2
+sale_num  &0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&连衣	1	2
+title_splits&连衣	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_detail_cata_for_ctr  &0:女装	1	2
+goods_detail_cata_for_ctr  &0:女装	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&品牌	1	2
+title_splits&品牌	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+similarity&1.00	1	2
+similarity&1.00	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&圈圈	1	2
+title_splits&圈圈	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+discount_ratio&1	1	2
+discount_ratio&1	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&拼接	1	2
+title_splits&拼接	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+pos&22	1	2
+pos&22	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&毛呢	1	2
+title_splits&毛呢	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+matched_items&sungdo	1	2
+matched_items&sungdo	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+matched_len&2	1	2
+matched_len&2	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_ctime  &627	1	2
+goods_ctime  &627	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+pic_score  &2	1	2
+pic_score  &2	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+user_id&79682659	1	2
+user_id&79682659	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+matched_items&gin	1	2
+matched_items&gin	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_src_price  &200	1	2
+goods_src_price  &200	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_on_shelf  &125	1	2
+goods_on_shelf  &125	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&gin	1	2
+title_splits&gin	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+style_score  &3	1	2
+style_score  &3	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+total_subscriber  &30	1	2
+total_subscriber  &30	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+discount_price  &200	1	2
+discount_price  &200	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+shop_id  &103013	1	2
+shop_id  &103013	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+gmv_score  &0	1	2
+gmv_score  &0	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+title_splits&设计师	1	2
+title_splits&设计师	1a66cccc0dfa80ead8ce8beb0535e685756f3d85	3
+25945d12cf298a880505b0645c7470357492f493	1.0:0.0	1
+title_splits&新款	1	2
+title_splits&新款	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&羊毛	1	2
+title_splits&羊毛	25945d12cf298a880505b0645c7470357492f493	3
+rank_like  &10	1	2
+rank_like  &10	25945d12cf298a880505b0645c7470357492f493	3
+unmatched_items&	1	2
+unmatched_items&	25945d12cf298a880505b0645c7470357492f493	3
+poster_word&品牌 设计师	1	2
+poster_word&品牌 设计师	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&独立	1	2
+title_splits&独立	25945d12cf298a880505b0645c7470357492f493	3
+unmatched_len&0	1	2
+unmatched_len&0	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&春秋	1	2
+title_splits&春秋	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&收腰	1	2
+title_splits&收腰	25945d12cf298a880505b0645c7470357492f493	3
+twitter_id&2166037247	1	2
+twitter_id&2166037247	25945d12cf298a880505b0645c7470357492f493	3
+shop_salenum  &1	1	2
+shop_salenum  &1	25945d12cf298a880505b0645c7470357492f493	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	25945d12cf298a880505b0645c7470357492f493	3
+comment_num  &0.0	1	2
+comment_num  &0.0	25945d12cf298a880505b0645c7470357492f493	3
+discount_time&50	1	2
+discount_time&50	25945d12cf298a880505b0645c7470357492f493	3
+user_id&159373781#twitter_id&2166037247	1	2
+user_id&159373781#twitter_id&2166037247	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&sungdo	1	2
+title_splits&sungdo	25945d12cf298a880505b0645c7470357492f493	3
+sale_num  &0	1	2
+sale_num  &0	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&连衣	1	2
+title_splits&连衣	25945d12cf298a880505b0645c7470357492f493	3
+goods_detail_cata_for_ctr  &0:女装	1	2
+goods_detail_cata_for_ctr  &0:女装	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&品牌	1	2
+title_splits&品牌	25945d12cf298a880505b0645c7470357492f493	3
+matched_items&设计师	1	2
+matched_items&设计师	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&圈圈	1	2
+title_splits&圈圈	25945d12cf298a880505b0645c7470357492f493	3
+discount_ratio&1	1	2
+discount_ratio&1	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&拼接	1	2
+title_splits&拼接	25945d12cf298a880505b0645c7470357492f493	3
+user_id&159373781	1	2
+user_id&159373781	25945d12cf298a880505b0645c7470357492f493	3
+pos&79	1	2
+pos&79	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&毛呢	1	2
+title_splits&毛呢	25945d12cf298a880505b0645c7470357492f493	3
+similarity&1.00	1	2
+similarity&1.00	25945d12cf298a880505b0645c7470357492f493	3
+matched_len&2	1	2
+matched_len&2	25945d12cf298a880505b0645c7470357492f493	3
+goods_ctime  &627	1	2
+goods_ctime  &627	25945d12cf298a880505b0645c7470357492f493	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	25945d12cf298a880505b0645c7470357492f493	3
+pic_score  &2	1	2
+pic_score  &2	25945d12cf298a880505b0645c7470357492f493	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	25945d12cf298a880505b0645c7470357492f493	3
+goods_src_price  &200	1	2
+goods_src_price  &200	25945d12cf298a880505b0645c7470357492f493	3
+goods_on_shelf  &125	1	2
+goods_on_shelf  &125	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&gin	1	2
+title_splits&gin	25945d12cf298a880505b0645c7470357492f493	3
+matched_items&品牌	1	2
+matched_items&品牌	25945d12cf298a880505b0645c7470357492f493	3
+style_score  &3	1	2
+style_score  &3	25945d12cf298a880505b0645c7470357492f493	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	25945d12cf298a880505b0645c7470357492f493	3
+total_subscriber  &30	1	2
+total_subscriber  &30	25945d12cf298a880505b0645c7470357492f493	3
+discount_price  &200	1	2
+discount_price  &200	25945d12cf298a880505b0645c7470357492f493	3
+shop_id  &103013	1	2
+shop_id  &103013	25945d12cf298a880505b0645c7470357492f493	3
+gmv_score  &0	1	2
+gmv_score  &0	25945d12cf298a880505b0645c7470357492f493	3
+title_splits&设计师	1	2
+title_splits&设计师	25945d12cf298a880505b0645c7470357492f493	3
+69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	1.0:0.0	1
+user_id&236560529#twitter_id&2166037247	1	2
+user_id&236560529#twitter_id&2166037247	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&新款	1	2
+title_splits&新款	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&羊毛	1	2
+title_splits&羊毛	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+rank_like  &10	1	2
+rank_like  &10	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+unmatched_items&	1	2
+unmatched_items&	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+pos&1	1	2
+pos&1	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&独立	1	2
+title_splits&独立	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+unmatched_len&0	1	2
+unmatched_len&0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&春秋	1	2
+title_splits&春秋	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&收腰	1	2
+title_splits&收腰	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+twitter_id&2166037247	1	2
+twitter_id&2166037247	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+shop_salenum  &1	1	2
+shop_salenum  &1	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+comment_num  &0.0	1	2
+comment_num  &0.0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+discount_time&50	1	2
+discount_time&50	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&sungdo	1	2
+title_splits&sungdo	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+sale_num  &0	1	2
+sale_num  &0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&连衣	1	2
+title_splits&连衣	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_detail_cata_for_ctr  &0:女装	1	2
+goods_detail_cata_for_ctr  &0:女装	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&品牌	1	2
+title_splits&品牌	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+similarity&1.00	1	2
+similarity&1.00	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&圈圈	1	2
+title_splits&圈圈	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+discount_ratio&1	1	2
+discount_ratio&1	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&拼接	1	2
+title_splits&拼接	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&毛呢	1	2
+title_splits&毛呢	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+matched_items&sungdo	1	2
+matched_items&sungdo	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+matched_len&1	1	2
+matched_len&1	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_ctime  &627	1	2
+goods_ctime  &627	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+pic_score  &2	1	2
+pic_score  &2	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+user_id&236560529	1	2
+user_id&236560529	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_src_price  &200	1	2
+goods_src_price  &200	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_on_shelf  &125	1	2
+goods_on_shelf  &125	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+poster_word&sungdo	1	2
+poster_word&sungdo	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&gin	1	2
+title_splits&gin	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+style_score  &3	1	2
+style_score  &3	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+total_subscriber  &30	1	2
+total_subscriber  &30	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+discount_price  &200	1	2
+discount_price  &200	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+shop_id  &103013	1	2
+shop_id  &103013	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+gmv_score  &0	1	2
+gmv_score  &0	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+title_splits&设计师	1	2
+title_splits&设计师	69ab0a08e383aa9a6b2031abc7d8149a94cdae3c	3
+d3043befe282ed665bd86ac381b7bc391081ff80	1.0:1.0	1
+title_splits&新款	1	2
+title_splits&新款	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&羊毛	1	2
+title_splits&羊毛	d3043befe282ed665bd86ac381b7bc391081ff80	3
+rank_like  &10	1	2
+rank_like  &10	d3043befe282ed665bd86ac381b7bc391081ff80	3
+unmatched_items&	1	2
+unmatched_items&	d3043befe282ed665bd86ac381b7bc391081ff80	3
+matched_len&1	1	2
+matched_len&1	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&独立	1	2
+title_splits&独立	d3043befe282ed665bd86ac381b7bc391081ff80	3
+unmatched_len&0	1	2
+unmatched_len&0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&春秋	1	2
+title_splits&春秋	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&收腰	1	2
+title_splits&收腰	d3043befe282ed665bd86ac381b7bc391081ff80	3
+twitter_id&2166037247	1	2
+twitter_id&2166037247	d3043befe282ed665bd86ac381b7bc391081ff80	3
+pos&849	1	2
+pos&849	d3043befe282ed665bd86ac381b7bc391081ff80	3
+user_id&122579021	1	2
+user_id&122579021	d3043befe282ed665bd86ac381b7bc391081ff80	3
+shop_salenum  &1	1	2
+shop_salenum  &1	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+comment_num  &0.0	1	2
+comment_num  &0.0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+discount_time&50	1	2
+discount_time&50	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&sungdo	1	2
+title_splits&sungdo	d3043befe282ed665bd86ac381b7bc391081ff80	3
+sale_num  &0	1	2
+sale_num  &0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&连衣	1	2
+title_splits&连衣	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_detail_cata_for_ctr  &0:女装	1	2
+goods_detail_cata_for_ctr  &0:女装	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&品牌	1	2
+title_splits&品牌	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&圈圈	1	2
+title_splits&圈圈	d3043befe282ed665bd86ac381b7bc391081ff80	3
+discount_ratio&1	1	2
+discount_ratio&1	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&拼接	1	2
+title_splits&拼接	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&毛呢	1	2
+title_splits&毛呢	d3043befe282ed665bd86ac381b7bc391081ff80	3
+similarity&1.00	1	2
+similarity&1.00	d3043befe282ed665bd86ac381b7bc391081ff80	3
+poster_word&毛呢	1	2
+poster_word&毛呢	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_ctime  &627	1	2
+goods_ctime  &627	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+pic_score  &2	1	2
+pic_score  &2	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+user_id&122579021#twitter_id&2166037247	1	2
+user_id&122579021#twitter_id&2166037247	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_src_price  &200	1	2
+goods_src_price  &200	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_on_shelf  &125	1	2
+goods_on_shelf  &125	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&gin	1	2
+title_splits&gin	d3043befe282ed665bd86ac381b7bc391081ff80	3
+style_score  &3	1	2
+style_score  &3	d3043befe282ed665bd86ac381b7bc391081ff80	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+total_subscriber  &30	1	2
+total_subscriber  &30	d3043befe282ed665bd86ac381b7bc391081ff80	3
+matched_items&毛呢	1	2
+matched_items&毛呢	d3043befe282ed665bd86ac381b7bc391081ff80	3
+discount_price  &200	1	2
+discount_price  &200	d3043befe282ed665bd86ac381b7bc391081ff80	3
+shop_id  &103013	1	2
+shop_id  &103013	d3043befe282ed665bd86ac381b7bc391081ff80	3
+gmv_score  &0	1	2
+gmv_score  &0	d3043befe282ed665bd86ac381b7bc391081ff80	3
+title_splits&设计师	1	2
+title_splits&设计师	d3043befe282ed665bd86ac381b7bc391081ff80	3
+03c3ddf464b29db74ad6d8b383a39ec62ccc8468	1.0:0.0	1
+matched_items&设计师	1	2
+matched_items&设计师	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&新款	1	2
+title_splits&新款	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&羊毛	1	2
+title_splits&羊毛	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+rank_like  &10	1	2
+rank_like  &10	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+unmatched_items&	1	2
+unmatched_items&	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&独立	1	2
+title_splits&独立	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+unmatched_len&0	1	2
+unmatched_len&0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&春秋	1	2
+title_splits&春秋	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&收腰	1	2
+title_splits&收腰	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+twitter_id&2166037247	1	2
+twitter_id&2166037247	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+matched_items&独立	1	2
+matched_items&独立	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+shop_salenum  &1	1	2
+shop_salenum  &1	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+comment_num  &0.0	1	2
+comment_num  &0.0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+discount_time&50	1	2
+discount_time&50	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&sungdo	1	2
+title_splits&sungdo	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+sale_num  &0	1	2
+sale_num  &0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&连衣	1	2
+title_splits&连衣	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_detail_cata_for_ctr  &0:女装	1	2
+goods_detail_cata_for_ctr  &0:女装	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&品牌	1	2
+title_splits&品牌	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+user_id&17501374#twitter_id&2166037247	1	2
+user_id&17501374#twitter_id&2166037247	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+pos&19	1	2
+pos&19	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&圈圈	1	2
+title_splits&圈圈	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+discount_ratio&1	1	2
+discount_ratio&1	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&拼接	1	2
+title_splits&拼接	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&毛呢	1	2
+title_splits&毛呢	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+similarity&1.00	1	2
+similarity&1.00	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+matched_len&2	1	2
+matched_len&2	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_ctime  &627	1	2
+goods_ctime  &627	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+pic_score  &2	1	2
+pic_score  &2	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+poster_word&独立 设计师	1	2
+poster_word&独立 设计师	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_src_price  &200	1	2
+goods_src_price  &200	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_on_shelf  &125	1	2
+goods_on_shelf  &125	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&gin	1	2
+title_splits&gin	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+style_score  &3	1	2
+style_score  &3	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+user_id&17501374	1	2
+user_id&17501374	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+total_subscriber  &30	1	2
+total_subscriber  &30	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+discount_price  &200	1	2
+discount_price  &200	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+shop_id  &103013	1	2
+shop_id  &103013	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+gmv_score  &0	1	2
+gmv_score  &0	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+title_splits&设计师	1	2
+title_splits&设计师	03c3ddf464b29db74ad6d8b383a39ec62ccc8468	3
+b3c23d7a8bbf791ab9df43d67c86b243be947820	1.0:0.0	1
+rank_like  &17	1	2
+rank_like  &17	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+pos&47	1	2
+pos&47	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&扣	1	2
+title_splits&扣	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&文胸	1	2
+title_splits&文胸	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+unmatched_items&	1	2
+unmatched_items&	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+twitter_id&2180546115	1	2
+twitter_id&2180546115	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+matched_items&少女	1	2
+matched_items&少女	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+poster_word&加厚 文胸 少女	1	2
+poster_word&加厚 文胸 少女	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+unmatched_len&0	1	2
+unmatched_len&0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+discount_price  &18	1	2
+discount_price  &18	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+user_id&143599600#twitter_id&2180546115	1	2
+user_id&143599600#twitter_id&2180546115	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+shop_salenum  &170	1	2
+shop_salenum  &170	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&性感	1	2
+title_splits&性感	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&可爱	1	2
+title_splits&可爱	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	2	2
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	b3c23d7a8bbf791ab9df43d67c86b243be947820_b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+comment_num  &0.0	1	2
+comment_num  &0.0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+discount_time&50	1	2
+discount_time&50	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+user_id&143599600	1	2
+user_id&143599600	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&深	1	2
+title_splits&深	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&无痕内衣	1	2
+title_splits&无痕内衣	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+user_id&143599600#style&聚拢	1	2
+user_id&143599600#style&聚拢	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_detail_cata_for_ctr  &11817:文胸	1	2
+goods_detail_cata_for_ctr  &11817:文胸	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+sale_num  &1	1	2
+sale_num  &1	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&v	1	2
+title_splits&v	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_ctime  &623	1	2
+goods_ctime  &623	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+matched_items&加厚	1	2
+matched_items&加厚	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_src_price  &18	1	2
+goods_src_price  &18	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+matched_items&文胸	1	2
+matched_items&文胸	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+discount_ratio&1	1	2
+discount_ratio&1	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&一片	1	2
+title_splits&一片	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&排	1	2
+title_splits&排	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+style&聚拢	1	2
+style&聚拢	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&加厚	1	2
+title_splits&加厚	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&聚拢	1	2
+title_splits&聚拢	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+matched_len&3	1	2
+matched_len&3	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&少女	1	2
+title_splits&少女	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+poster_word&加厚 文胸 少女#style&聚拢	1	2
+poster_word&加厚 文胸 少女#style&聚拢	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&卡通	1	2
+title_splits&卡通	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+total_subscriber  &6	1	2
+total_subscriber  &6	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+pic_score  &2	1	2
+pic_score  &2	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&三	1	2
+title_splits&三	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+title_splits&式	1	2
+title_splits&式	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+gmv_score  &0	1	2
+gmv_score  &0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+shop_id  &105351	1	2
+shop_id  &105351	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+style_score  &2	1	2
+style_score  &2	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+similarity&1.00	1	2
+similarity&1.00	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+goods_on_shelf  &124	1	2
+goods_on_shelf  &124	b3c23d7a8bbf791ab9df43d67c86b243be947820	3
+bc5d35fa319fffad824267b5cad121f0f3f7f755	1.0:1.0	1
+rank_like  &17	1	2
+rank_like  &17	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&扣	1	2
+title_splits&扣	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&文胸	1	2
+title_splits&文胸	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+user_id&325407925#twitter_id&2180546115	1	2
+user_id&325407925#twitter_id&2180546115	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+twitter_id&2180546115	1	2
+twitter_id&2180546115	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+poster_word&加厚 内衣 无痕#style&聚拢	1	2
+poster_word&加厚 内衣 无痕#style&聚拢	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+unmatched_len&2	1	2
+unmatched_len&2	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+discount_price  &18	1	2
+discount_price  &18	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+shop_salenum  &170	1	2
+shop_salenum  &170	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+poster_word&加厚 内衣 无痕	1	2
+poster_word&加厚 内衣 无痕	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&性感	1	2
+title_splits&性感	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&可爱	1	2
+title_splits&可爱	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	2	2
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	bc5d35fa319fffad824267b5cad121f0f3f7f755_bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+comment_num  &0.0	1	2
+comment_num  &0.0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+discount_time&50	1	2
+discount_time&50	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+user_id&325407925#style&聚拢	1	2
+user_id&325407925#style&聚拢	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&深	1	2
+title_splits&深	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&无痕内衣	1	2
+title_splits&无痕内衣	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_detail_cata_for_ctr  &11817:文胸	1	2
+goods_detail_cata_for_ctr  &11817:文胸	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+sale_num  &1	1	2
+sale_num  &1	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&v	1	2
+title_splits&v	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_ctime  &623	1	2
+goods_ctime  &623	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+matched_items&加厚	1	2
+matched_items&加厚	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_src_price  &18	1	2
+goods_src_price  &18	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+discount_ratio&1	1	2
+discount_ratio&1	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&一片	1	2
+title_splits&一片	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&排	1	2
+title_splits&排	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+style&聚拢	1	2
+style&聚拢	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&加厚	1	2
+title_splits&加厚	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+pos&59	1	2
+pos&59	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&聚拢	1	2
+title_splits&聚拢	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&少女	1	2
+title_splits&少女	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+unmatched_items&无痕	1	2
+unmatched_items&无痕	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&卡通	1	2
+title_splits&卡通	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+total_subscriber  &6	1	2
+total_subscriber  &6	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+pic_score  &2	1	2
+pic_score  &2	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&三	1	2
+title_splits&三	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+title_splits&式	1	2
+title_splits&式	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+gmv_score  &0	1	2
+gmv_score  &0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+matched_len&1	1	2
+matched_len&1	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+shop_id  &105351	1	2
+shop_id  &105351	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+style_score  &2	1	2
+style_score  &2	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+unmatched_items&内衣	1	2
+unmatched_items&内衣	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+user_id&325407925	1	2
+user_id&325407925	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+goods_on_shelf  &124	1	2
+goods_on_shelf  &124	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+similarity&0.33	1	2
+similarity&0.33	bc5d35fa319fffad824267b5cad121f0f3f7f755	3
+f27a3f0a0babae960687d9a620ea6563b8b88b35	1.0:1.0	1
+rank_like  &17	1	2
+rank_like  &17	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&扣	1	2
+title_splits&扣	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&文胸	1	2
+title_splits&文胸	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+user_id&211014213	1	2
+user_id&211014213	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+twitter_id&2180546115	1	2
+twitter_id&2180546115	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+unmatched_len&3	1	2
+unmatched_len&3	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+discount_price  &18	1	2
+discount_price  &18	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+shop_salenum  &170	1	2
+shop_salenum  &170	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&性感	1	2
+title_splits&性感	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&可爱	1	2
+title_splits&可爱	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+poster_word&加厚 无痕内衣 片式 一	1	2
+poster_word&加厚 无痕内衣 片式 一	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	2	2
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	f27a3f0a0babae960687d9a620ea6563b8b88b35_f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+comment_num  &0.0	1	2
+comment_num  &0.0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+discount_time&50	1	2
+discount_time&50	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&深	1	2
+title_splits&深	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&无痕内衣	1	2
+title_splits&无痕内衣	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_detail_cata_for_ctr  &11817:文胸	1	2
+goods_detail_cata_for_ctr  &11817:文胸	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+sale_num  &1	1	2
+sale_num  &1	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&v	1	2
+title_splits&v	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_ctime  &623	1	2
+goods_ctime  &623	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+matched_items&加厚	1	2
+matched_items&加厚	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+user_id&211014213#twitter_id&2180546115	1	2
+user_id&211014213#twitter_id&2180546115	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+similarity&0.25	1	2
+similarity&0.25	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_src_price  &18	1	2
+goods_src_price  &18	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+discount_ratio&1	1	2
+discount_ratio&1	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&一片	1	2
+title_splits&一片	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&排	1	2
+title_splits&排	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+style&聚拢	1	2
+style&聚拢	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&加厚	1	2
+title_splits&加厚	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+unmatched_items&内衣	1	2
+unmatched_items&内衣	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&聚拢	1	2
+title_splits&聚拢	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+pos&14	1	2
+pos&14	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+poster_word&加厚 无痕内衣 片式 一#style&聚拢	1	2
+poster_word&加厚 无痕内衣 片式 一#style&聚拢	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&少女	1	2
+title_splits&少女	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+unmatched_items&无痕	1	2
+unmatched_items&无痕	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&卡通	1	2
+title_splits&卡通	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+user_id&211014213#style&聚拢	1	2
+user_id&211014213#style&聚拢	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+total_subscriber  &6	1	2
+total_subscriber  &6	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+pic_score  &2	1	2
+pic_score  &2	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&三	1	2
+title_splits&三	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+title_splits&式	1	2
+title_splits&式	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+gmv_score  &0	1	2
+gmv_score  &0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+matched_len&1	1	2
+matched_len&1	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+shop_id  &105351	1	2
+shop_id  &105351	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+style_score  &2	1	2
+style_score  &2	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+unmatched_items&片式	1	2
+unmatched_items&片式	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+goods_on_shelf  &124	1	2
+goods_on_shelf  &124	f27a3f0a0babae960687d9a620ea6563b8b88b35	3
+3672e762c641b12ffe2fe12cbd7b3216c806bd5d	1.0:0.0	1
+rank_like  &17	1	2
+rank_like  &17	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+similarity&0.00	1	2
+similarity&0.00	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&扣	1	2
+title_splits&扣	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&文胸	1	2
+title_splits&文胸	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+poster_word&无痕内衣 片式 一#style&聚拢	1	2
+poster_word&无痕内衣 片式 一#style&聚拢	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+twitter_id&2180546115	1	2
+twitter_id&2180546115	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+poster_word&无痕内衣 片式 一	1	2
+poster_word&无痕内衣 片式 一	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+unmatched_len&3	1	2
+unmatched_len&3	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+discount_price  &18	1	2
+discount_price  &18	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+shop_salenum  &170	1	2
+shop_salenum  &170	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&性感	1	2
+title_splits&性感	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+user_id&68160582	1	2
+user_id&68160582	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&可爱	1	2
+title_splits&可爱	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	2	2
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	3672e762c641b12ffe2fe12cbd7b3216c806bd5d_3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+comment_num  &0.0	1	2
+comment_num  &0.0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+discount_time&50	1	2
+discount_time&50	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+user_id&68160582#twitter_id&2180546115	1	2
+user_id&68160582#twitter_id&2180546115	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&深	1	2
+title_splits&深	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&无痕内衣	1	2
+title_splits&无痕内衣	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_detail_cata_for_ctr  &11817:文胸	1	2
+goods_detail_cata_for_ctr  &11817:文胸	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+sale_num  &1	1	2
+sale_num  &1	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&v	1	2
+title_splits&v	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_ctime  &623	1	2
+goods_ctime  &623	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_src_price  &18	1	2
+goods_src_price  &18	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+discount_ratio&1	1	2
+discount_ratio&1	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&一片	1	2
+title_splits&一片	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&排	1	2
+title_splits&排	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+matched_items&	1	2
+matched_items&	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+style&聚拢	1	2
+style&聚拢	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&加厚	1	2
+title_splits&加厚	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+unmatched_items&内衣	1	2
+unmatched_items&内衣	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&聚拢	1	2
+title_splits&聚拢	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+unmatched_items&片式	1	2
+unmatched_items&片式	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&少女	1	2
+title_splits&少女	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+matched_len&0	1	2
+matched_len&0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+unmatched_items&无痕	1	2
+unmatched_items&无痕	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&卡通	1	2
+title_splits&卡通	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+total_subscriber  &6	1	2
+total_subscriber  &6	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+user_id&68160582#style&聚拢	1	2
+user_id&68160582#style&聚拢	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+pic_score  &2	1	2
+pic_score  &2	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+pos&346	1	2
+pos&346	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&三	1	2
+title_splits&三	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+title_splits&式	1	2
+title_splits&式	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+gmv_score  &0	1	2
+gmv_score  &0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+shop_id  &105351	1	2
+shop_id  &105351	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+style_score  &2	1	2
+style_score  &2	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+goods_on_shelf  &124	1	2
+goods_on_shelf  &124	3672e762c641b12ffe2fe12cbd7b3216c806bd5d	3
+31450ed57b2d2c2755df6417bb1d94dff95778bb	1.0:0.0	1
+rank_like  &17	1	2
+rank_like  &17	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&扣	1	2
+title_splits&扣	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&文胸	1	2
+title_splits&文胸	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+matched_items&扣	1	2
+matched_items&扣	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+matched_items&三	1	2
+matched_items&三	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+twitter_id&2180546115	1	2
+twitter_id&2180546115	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+poster_word&加厚 内衣 扣 排 三#style&聚拢	1	2
+poster_word&加厚 内衣 扣 排 三#style&聚拢	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+matched_len&4	1	2
+matched_len&4	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+discount_price  &18	1	2
+discount_price  &18	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+user_id&84708133#twitter_id&2180546115	1	2
+user_id&84708133#twitter_id&2180546115	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+shop_salenum  &170	1	2
+shop_salenum  &170	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&性感	1	2
+title_splits&性感	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&可爱	1	2
+title_splits&可爱	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+user_id&84708133#style&聚拢	1	2
+user_id&84708133#style&聚拢	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	2	2
+goods_detail_cata_for_ctr  &11801:内衣/泳衣	31450ed57b2d2c2755df6417bb1d94dff95778bb_31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+similarity&0.80	1	2
+similarity&0.80	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_dsr  &-1.0	1	2
+goods_dsr  &-1.0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+comment_num  &0.0	1	2
+comment_num  &0.0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+discount_time&50	1	2
+discount_time&50	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&深	1	2
+title_splits&深	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&无痕内衣	1	2
+title_splits&无痕内衣	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_detail_cata_for_ctr  &11817:文胸	1	2
+goods_detail_cata_for_ctr  &11817:文胸	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+sale_num  &1	1	2
+sale_num  &1	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+pos&35	1	2
+pos&35	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&v	1	2
+title_splits&v	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+poster_word&加厚 内衣 扣 排 三	1	2
+poster_word&加厚 内衣 扣 排 三	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_ctime  &623	1	2
+goods_ctime  &623	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+matched_items&加厚	1	2
+matched_items&加厚	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_src_price  &18	1	2
+goods_src_price  &18	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+discount_ratio&1	1	2
+discount_ratio&1	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&一片	1	2
+title_splits&一片	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&排	1	2
+title_splits&排	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+style&聚拢	1	2
+style&聚拢	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&加厚	1	2
+title_splits&加厚	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+unmatched_items&内衣	1	2
+unmatched_items&内衣	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&聚拢	1	2
+title_splits&聚拢	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&少女	1	2
+title_splits&少女	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&卡通	1	2
+title_splits&卡通	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+total_subscriber  &6	1	2
+total_subscriber  &6	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_satisfied  &-1.0	1	2
+goods_satisfied  &-1.0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+pic_score  &2	1	2
+pic_score  &2	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_fashion  &-1.0	1	2
+goods_fashion  &-1.0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&三	1	2
+title_splits&三	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+title_splits&式	1	2
+title_splits&式	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+matched_items&排	1	2
+matched_items&排	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+gmv_score  &0	1	2
+gmv_score  &0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+user_id&84708133	1	2
+user_id&84708133	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+unmatched_len&1	1	2
+unmatched_len&1	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+shop_id  &105351	1	2
+shop_id  &105351	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+style_score  &2	1	2
+style_score  &2	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_quality  &-1.0	1	2
+goods_quality  &-1.0	31450ed57b2d2c2755df6417bb1d94dff95778bb	3
+goods_on_shelf  &124	1	2
+goods_on_shelf  &124	31450ed57b2d2c2755df6417bb1d94dff95778bb	3

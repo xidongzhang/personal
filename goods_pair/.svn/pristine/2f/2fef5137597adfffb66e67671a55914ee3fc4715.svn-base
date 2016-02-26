@@ -1,0 +1,406 @@
+attr:
+    goods_id:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 0
+    twitter_id:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 1
+    shop_id:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 2
+    goods_title:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 3
+    goods_tag:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 4
+    goods_src_price:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: 0
+        method: processDefault
+        index: 5
+    discount_price:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: 0
+        method: processPrice
+        index: 6
+    goods_ctime:
+        max_value: 1000
+        min_value: 0
+        section_len: 1
+        default: -1
+        method: processTime
+        index: 7
+    goods_status:
+        max_value: 10000000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 8
+    goods_color:
+        max_value: 20
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 9
+    goods_size:
+        max_value: 20
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 10
+    goods_detail_repository:
+        max_value: 20
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDetailRepository
+        index: 11
+    goods_detail_cata_for_ctr:
+        max_value: 20
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processCataDetail
+        index: 12
+    goods_style_for_ctr:
+        max_value: 20
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processStyleInfo
+        index: 13
+    gmv_score:
+        max_value: 10
+        min_value: 0
+        section_len: 0.1
+        default: 0.0
+        method: processDefault
+        index: 14
+    discount_price_14:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: 0.0
+        method: processPrice
+        index: 15
+    pic_score:
+        max_value: 2000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 16
+    style_score:
+        max_value: 2000
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 17
+    rank_like:
+        max_value: 5000
+        min_value: 0
+        section_len: 5
+        default: 0.0
+        method: processDefault
+        index: 18
+    sale_num:
+        max_value: 2000
+        min_value: 0
+        section_len: 5
+        default: 0
+        method: processDefault
+        index: 19
+    goods_img:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 20
+    goods_on_shelf:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: -1
+        method: processTime
+        index: 21
+    shop_ctime:
+        max_value: 1000
+        min_value: 0
+        section_len: 10
+        default: -1
+        method: processTime
+        index: 22
+    goods_satisfied:
+        max_value: 1
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 23
+    goods_dsr:
+        max_value: 1
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 24
+    goods_fashion:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 25
+    goods_quality:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 26
+    reason_refund_rate:
+        max_value: 1
+        min_value: 0
+        section_len: 0.01
+        default: -1.0
+        method: processDefault
+        index: 27
+    appeal_rate:
+        max_value: 1
+        min_value: 0
+        section_len: 0.01
+        default: -1.0
+        method: processDefault
+        index: 28
+    comment_num:
+        max_value: 2000
+        min_value: 0
+        section_len: 10
+        default: 0.0
+        method: processDefault
+        index: 29
+    goods_repertory:
+        max_value: 2000
+        min_value: 0
+        section_len: 100
+        default: 0
+        method: processDefault
+        index: 30
+    shop_salenum:
+        max_value: 20000
+        min_value: 0
+        section_len: 40
+        default: 0
+        method: processDefault
+        index: 31
+    total_subscriber:
+        max_value: 20000
+        min_value: 0
+        section_len: 400
+        default: 0
+        method: processDefault
+        index: 32
+    online_sku:
+        max_value: 10000
+        min_value: 0
+        section_len: 200
+        default: 0
+        method: processDefault
+        index: 33
+    shop_fashion:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 34
+    shop_fashion_mark:
+        max_value: 5
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 35
+    shop_quality:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 36
+    shop_quality_mark:
+        max_value: 5
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 37
+    shop_attitude:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 38
+    shop_attitude_mark:
+        max_value: 5
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 39
+    shop_fast:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 40
+    shop_fast_mark:
+        max_value: 5
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 41
+    shop_accord:
+        max_value: 5
+        min_value: 0
+        section_len: 0.02
+        default: -1.0
+        method: processDefault
+        index: 42
+    shop_accord_mark:
+        max_value: 5
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 43
+    goods_show:
+        max_value: 50
+        min_value: 0
+        section_len: 1
+        default: 0
+        method: processDefault
+        index: 44
+    discount_time:
+        max_value: 50
+        min_value: 0
+        section_len: 1
+        default: 0
+        method: processTime
+        index: 45
+    tag_info:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 46
+    goods_subtitle:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processDefault
+        index: 47
+    first_cataid:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "0"
+        output_name: first_sort_id
+        method: processDefault
+        index: 48
+    discount_ratio:
+        max_value: 1
+        min_value: 0
+        section_len: 0.025
+        default: 1.0
+        method: processDiscount
+        index: 49
+    style:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processMiningTag
+        index: 50
+    title_splits:
+        max_value: 50
+        min_value: 0
+        section_len: 0
+        default: "NULL"
+        method: processTitleSplits
+        index: 51
+    bad_count:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: 0
+        output_name: comment_bad_count
+        method: processDefault
+        index: 52
+    bad_weight:
+        max_value: 1000
+        min_value: 0
+        section_len: 5
+        default: 0
+        output_name: comment_bad_weight
+        method: processDefault
+        index: 53
+    bad_ratio1:
+        max_value: 1
+        min_value: 0
+        section_len: 0.05
+        default: -1
+        output_name: comment_bad_ratio1
+        method: processDefault
+        index: 54
+    bad_ratio2:
+        max_value: 1
+        min_value: 0
+        section_len: 0.05
+        default: -1
+        output_name: comment_bad_ratio2
+        method: processDefault
+        index: 55
+    is_gold:
+        max_value: 0
+        min_value: 0
+        section_len: 0
+        default: 0
+        method: processDefault
+        index: 56
+    

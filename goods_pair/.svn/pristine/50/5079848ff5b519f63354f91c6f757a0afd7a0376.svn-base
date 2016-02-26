@@ -1,0 +1,274 @@
+#coding=gbk
+import sys
+import os
+from JobProducer import *
+from ArgvParser import *
+import time
+from datetime import timedelta, date
+from time import strftime, localtime
+
+MAX_TRIES = 1
+BASIC_PATH="/hadoop/hadoop"
+
+argvDict={}
+
+def mergePair():
+    rootPath=argvDict["root_path"]
+    tempOutput="%s/fea_data/merge_pair"%(rootPath)
+    job = HadoopJobProducer()
+    job.setJobName("merge_pair")
+    job.setMapstr("python MergePairMapper.py")
+    job.setReducestr("python MergePairReducer.py")
+    job.setJobPriority("HIGH")
+    job.addFile(["MergePairMapper.py","MergePairReducer.py","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    job.addInput("%s/label_data/*/*"%(rootPath),"",partName)
+#    job.addInput("/user/chongweishen/recommend/pair_rec/label_data/comp_from_luna","",partName)
+    job.setReduceNum(597)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+def mergeFeaJob1():
+    rootPath=argvDict["root_path"]
+    tempOutput="%s/fea_data/pair_merge_fea1"%(rootPath)
+    job = HadoopJobProducer()
+    job.setJobName("pair_merge_fea1")
+    job.setMapstr("python MergeFea1Mapper.py")
+    job.setReducestr("python MergeFea1Reducer.py")
+    job.setJobPriority("HIGH")
+    job.addFile(["MergeFea1Mapper.py","MergeFea1Reducer.py","goods_meta","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    day = argvDict["day"]
+    job.addInput("%s/fea_data/merge_pair"%(rootPath),"",partName)
+    job.addInput("%s/nlp/goods_fea_tag"%(rootPath),"",partName)
+    job.addInput("%s/fea_data/subti_negtive"%(rootPath), "", partName)
+    job.addInput("%s/fea_data/comp_negtive"%(rootPath), "", partName)
+    job.addInput("%s/fea_data/comp_positive"%(rootPath), "", partName)
+    job.setReduceNum(597)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf num.key.fields.for.partition=1")
+    job.addOtherInfomation("-jobconf stream.num.map.output.key.fields=2")
+    job.addOtherInfomation("-partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner")
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    #job.addOtherInfomation("-jobconf stream.memory.limit=1000")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+def mergeFeaJob2():
+    rootPath=argvDict["root_path"]
+    tempOutput="%s/fea_data/pair_merge_fea2"%(rootPath)
+    job = HadoopJobProducer()
+    job.setJobName("pair_merge_fea2")
+    job.setMapstr("python MergeFea2Mapper.py")
+    job.setReducestr("python MergeFea2Reducer.py")
+    job.setJobPriority("HIGH")
+    job.addFile(["MergeFea2Mapper.py","MergeFea2Reducer.py","goods_meta","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    day = argvDict["day"]
+    job.addInput("%s/fea_data/pair_merge_fea1"%(rootPath),"",partName)
+    job.addInput("%s/nlp/goods_fea_tag"%(rootPath),"",partName)
+    job.setReduceNum(597)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf num.key.fields.for.partition=1")
+    job.addOtherInfomation("-jobconf stream.num.map.output.key.fields=2")
+    job.addOtherInfomation("-partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner")
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    #job.addOtherInfomation("-jobconf stream.memory.limit=1000")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+def getNoRelationSimilar():
+    rootPath=argvDict["root_path"]
+    three_month_ago = str(date.today()-timedelta(days=75))
+    time_period = 75
+    hql = '''
+    hive -e "
+        set mapred.reduce.tasks=500;
+        set hive.exec.compress.output=false;
+        drop table if exists tmp.similar_tidpairs_midtable; 
+        create table tmp.similar_tidpairs_midtable as select md5(query) as md5_query, twitter_id, shows, st_pv from (select query,twitter_id,sum(real_show_nums) as shows,sum(click_nums) as st_pv from dm.ml_base_data where dt >= '%s' and dt<=date_add('%s',%s) and length(twitter_id)>1 group by query,twitter_id having shows>600) tmp;
+        drop table if exists tmp.similar_tidpairs_samples;
+        create table tmp.similar_tidpairs_samples as select click.twitter_id as click_tid,noclick.twitter_id as noclick_tid,sum(1) as query_num from (select md5_query,twitter_id,shows,st_pv from tmp.similar_tidpairs_midtable where st_pv>0) click join (select md5_query,twitter_id,shows,st_pv from tmp.similar_tidpairs_midtable
+where st_pv=0) noclick on click.md5_query=noclick.md5_query group by click.twitter_id,noclick.twitter_id;
+    "
+    '''
+    hql=hql%(three_month_ago, three_month_ago, time_period)
+    os.system(hql)
+    new_hql = '''
+    hive -e '
+    set mapred.reduce.tasks=500;
+    SET hive.exec.compress.output=false;
+    SET mapreduce.output.fileoutputformat.compress=false;
+    INSERT OVERWRITE DIRECTORY "%s/fea_data/subti_negtive" SELECT click_tid, noclick_tid, "subti_no", "-", "-", "1" from tmp.similar_tidpairs_samples where rand()<0.5;
+    '
+    '''
+    os.system(new_hql%(rootPath))
+
+def getComp():
+    rootPath=argvDict["root_path"]
+    cmd = "bash prepare_comp_data.sh"
+    os.system(cmd)
+    hql_1 = '''
+    hive -e '
+    set mapred.reduce.tasks=500;
+    SET hive.exec.compress.output=false;
+    SET mapreduce.output.fileoutputformat.compress=false;
+    INSERT OVERWRITE DIRECTORY "%s/fea_data/comp_negtive" SELECT tid1, tid2, "com_no", "-", "-", "1" from tmp.comp_samples where sample_type="negtive" and rand()<0.5;
+    '
+    '''
+    os.system(hql_1%(rootPath))
+    hql_2 = '''
+    hive -e '
+    set mapred.reduce.tasks=500;
+    SET hive.exec.compress.output=false;
+    SET mapreduce.output.fileoutputformat.compress=false;
+    INSERT OVERWRITE DIRECTORY "%s/fea_data/comp_positive" SELECT tid1, tid2, "comp", "-", "-", "1" from tmp.comp_samples where sample_type="positive";
+    '
+    '''
+    os.system(hql_2%(rootPath))
+
+def getNoRelation():
+    rootPath=argvDict["root_path"]
+    tempOutput="%s/fea_data/no_relation"%(rootPath)
+    job = HadoopJobProducer()
+    job.setJobName("no_relation")
+    #job.setMapstr("python NoRelationPvMapper.py %s"%(sign))
+    #job.setReducestr("python NoRelationPvReducer.py %s"%(sign))
+    job.setMapstr("python NoRelationRandomMapper.py")
+    job.setReducestr("python NoRelationRandomReducer.py")
+    job.setJobPriority("HIGH")
+    job.addFile(["NoRelationRandomMapper.py","NoRelationRandomReducer.py","goods_meta","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    day = argvDict["day"]
+    #job.addInput("%s/fea_data/pair_merge_fea2"%(rootPath),"",partName)
+    job.addInput("%s/nlp/goods_fea_tag"%(rootPath),"",partName)
+    job.setReduceNum(697)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    #job.addOtherInfomation("-jobconf stream.memory.limit=1000")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+def formatFea():
+    rootPath=argvDict["root_path"]
+    tempOutput="%s/fea_data/format_fea"%(rootPath)
+    job = HadoopJobProducer()
+    job.setJobName("format_fea")
+    job.setMapstr("python FormatFeaMapper.py")
+    job.setReducestr("python FormatFeaReducer.py")
+    job.setJobPriority("HIGH")
+    job.addFile(["FormatFeaMapper.py","FormatFeaReducer.py","goods_meta","cata_dict","can_comp_cata_dict","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    day = argvDict["day"]
+    #job.addInput("%s/fea_data/no_relation_comp"%(rootPath), day, partName)
+    #job.addInput("%s/fea_data/no_relation_subti"%(rootPath), day, partName)
+    #job.addInput("%s/fea_data/no_relation"%(rootPath), day, partName)
+    job.addInput("%s/fea_data/pair_merge_fea2"%(rootPath), day, partName)
+    #job.setReduceNum(0)
+    job.setReduceNum(1000)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    #job.addOtherInfomation("-jobconf stream.memory.limit=1000")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+def combineFea():
+    rootPath=argvDict["root_path"]
+    sign = argvDict["sign"]
+    tempOutput="%s/fea_data/%s_comb_fea"%(rootPath,sign)
+    sample = argvDict["sample"]
+    colLimit = argvDict["colLimit"]
+    job = HadoopJobProducer()
+    job.setJobName("combine_fea")
+    job.setMapstr("python CombFeaMapper.py %s %s"%(sign, sample))
+    job.setReducestr("python CombFeaReducer.py %s"%(colLimit))
+    #job.setCombinerstr("python CombFeaReducer.py 0")
+    job.setJobPriority("HIGH")
+    job.addFile(["CombFeaMapper.py","CombFeaReducer.py","goods_meta","goods_meta_used","utils.py","/hadoop/hive/lib/hive-exec-0.14.0.jar"])
+    partName="*"
+    if(argvDict.has_key("part")):
+        partName=argvDict["part"]
+    cmd="hadoop fs -rmr %s"%(tempOutput)
+    os.system(cmd)
+
+    day = argvDict["day"]
+    job.addInput("%s/fea_data/format_fea"%(rootPath), day, partName)
+    job.setReduceNum(1000)
+    job.setOutput(tempOutput)
+    job.addOtherInfomation("-jobconf mapred.job.map.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.job.reduce.capacity=800")
+    job.addOtherInfomation("-jobconf mapred.output.compress=false")
+    #job.addOtherInfomation("-jobconf stream.memory.limit=1000")
+    ret_1=job.runJob()
+    if ret_1 != 0:
+        sys.exit(-1)
+    return tempOutput
+
+if __name__ == '__main__':
+    argvDict=initOption(sys.argv)
+    printOption(argvDict)
+
+    if(argvDict["run_pair"] == "1"):
+        mergePair()
+        getNoRelationSimilar()
+        getComp()
+        mergeFeaJob1()
+        mergeFeaJob2()
+#        getNoRelation()
+        formatFea()
+#        getNoRelation("comp")
+#        getNoRelation("subti")
+    else:
+        combineFea()
+
+
+    sys.exit(0)
+
+

@@ -1,0 +1,1395 @@
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove training_data/round.two: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 16:45:40 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.map1.py, ./round2.red2.py, /tmp/hadoop-chongweishen/hadoop-unjar5998632763246928770/] [] /tmp/streamjob7618715181175224055.jar tmpDir=null
+15/02/11 16:45:41 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/11 16:45:41 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/11 16:45:42 INFO mapred.FileInputFormat: Total input paths to process : 2147
+15/02/11 16:45:59 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/11 16:45:59 INFO streaming.StreamJob: Running job: job_201502082016_32221
+15/02/11 16:45:59 INFO streaming.StreamJob: To kill this job, run:
+15/02/11 16:45:59 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_32221
+15/02/11 16:45:59 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_32221
+15/02/11 16:46:00 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/11 16:46:10 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/11 16:46:11 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/11 16:46:12 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/11 16:46:13 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/11 16:46:14 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/11 16:46:15 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/11 16:46:16 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/11 16:46:17 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/11 16:46:18 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/11 16:46:19 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/11 16:46:20 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/11 16:46:21 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/11 16:46:22 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/11 16:46:23 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/11 16:46:24 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/11 16:46:25 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/11 16:46:26 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/11 16:46:27 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/11 16:46:28 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/11 16:46:29 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/11 16:46:30 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/11 16:46:32 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/11 16:46:35 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/11 16:46:42 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/11 16:46:45 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/11 16:46:46 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/11 16:46:48 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/11 16:46:49 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/11 16:46:50 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/11 16:46:51 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/11 16:46:52 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/11 16:46:53 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/11 16:46:54 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/11 16:46:55 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/11 16:46:56 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/11 16:46:57 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/11 16:46:58 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/11 16:46:59 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/11 16:47:00 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/11 16:47:01 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/11 16:47:02 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/11 16:47:03 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/11 16:47:05 INFO streaming.StreamJob:  map 45%  reduce 0%
+15/02/11 16:47:07 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/11 16:47:09 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/11 16:47:11 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/11 16:47:13 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/11 16:47:15 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/11 16:47:17 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/11 16:47:19 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/11 16:47:21 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/11 16:47:22 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/11 16:47:23 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/11 16:47:25 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/11 16:47:26 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/11 16:47:27 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/11 16:47:28 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/11 16:47:29 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/11 16:47:30 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/11 16:47:31 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/11 16:47:32 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/11 16:47:33 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/11 16:47:35 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/11 16:47:36 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/11 16:47:38 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/11 16:47:40 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/11 16:47:42 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/11 16:47:46 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/11 16:47:55 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/11 16:47:59 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/11 16:48:01 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/11 16:48:03 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/11 16:48:05 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/11 16:48:06 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/11 16:48:08 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/11 16:48:10 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/11 16:48:12 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/11 16:48:16 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/11 16:48:20 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/11 16:48:30 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/11 16:48:34 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/11 16:48:37 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/11 16:48:39 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/11 16:48:41 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/11 16:48:42 INFO streaming.StreamJob:  map 87%  reduce 0%
+15/02/11 16:48:44 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/11 16:48:45 INFO streaming.StreamJob:  map 89%  reduce 0%
+15/02/11 16:48:47 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/11 16:48:48 INFO streaming.StreamJob:  map 91%  reduce 0%
+15/02/11 16:48:49 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/11 16:48:51 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/11 16:48:53 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/11 16:48:54 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/02/11 16:48:56 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/11 16:48:58 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/02/11 16:48:59 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/11 16:49:01 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/11 16:49:06 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/11 16:49:12 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/11 16:49:17 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/11 16:49:23 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/11 16:49:28 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/11 16:49:30 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/11 16:49:32 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/11 16:49:59 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/11 16:50:11 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/11 16:50:15 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/11 16:50:17 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/11 16:50:19 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/11 16:50:23 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/11 16:50:25 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/11 16:50:28 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/11 16:50:33 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/11 16:51:04 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/11 16:51:22 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/11 16:51:29 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/11 16:51:33 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/11 16:51:37 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/11 16:51:42 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/11 16:51:46 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/11 16:51:51 INFO streaming.StreamJob:  map 100%  reduce 19%
+15/02/11 16:51:55 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/11 16:52:00 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/11 16:52:03 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/11 16:52:07 INFO streaming.StreamJob:  map 100%  reduce 23%
+15/02/11 16:52:09 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/11 16:52:12 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/11 16:52:14 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/11 16:52:17 INFO streaming.StreamJob:  map 100%  reduce 27%
+15/02/11 16:52:20 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/11 16:52:23 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/11 16:52:26 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/11 16:52:29 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/11 16:52:32 INFO streaming.StreamJob:  map 100%  reduce 32%
+15/02/11 16:52:34 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/11 16:52:36 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/11 16:52:38 INFO streaming.StreamJob:  map 100%  reduce 35%
+15/02/11 16:52:39 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/11 16:52:41 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/11 16:52:43 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/11 16:52:45 INFO streaming.StreamJob:  map 100%  reduce 39%
+15/02/11 16:52:46 INFO streaming.StreamJob:  map 100%  reduce 40%
+15/02/11 16:52:48 INFO streaming.StreamJob:  map 100%  reduce 41%
+15/02/11 16:52:50 INFO streaming.StreamJob:  map 100%  reduce 42%
+15/02/11 16:52:51 INFO streaming.StreamJob:  map 100%  reduce 43%
+15/02/11 16:52:53 INFO streaming.StreamJob:  map 100%  reduce 44%
+15/02/11 16:52:54 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/02/11 16:52:56 INFO streaming.StreamJob:  map 100%  reduce 46%
+15/02/11 16:52:57 INFO streaming.StreamJob:  map 100%  reduce 47%
+15/02/11 16:52:58 INFO streaming.StreamJob:  map 100%  reduce 48%
+15/02/11 16:53:00 INFO streaming.StreamJob:  map 100%  reduce 49%
+15/02/11 16:53:01 INFO streaming.StreamJob:  map 100%  reduce 50%
+15/02/11 16:53:02 INFO streaming.StreamJob:  map 100%  reduce 51%
+15/02/11 16:53:03 INFO streaming.StreamJob:  map 100%  reduce 52%
+15/02/11 16:53:04 INFO streaming.StreamJob:  map 100%  reduce 53%
+15/02/11 16:53:05 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/02/11 16:53:07 INFO streaming.StreamJob:  map 100%  reduce 55%
+15/02/11 16:53:08 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/11 16:53:10 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/11 16:53:11 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/02/11 16:53:14 INFO streaming.StreamJob:  map 100%  reduce 59%
+15/02/11 16:53:17 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/02/11 16:53:19 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/02/11 16:53:22 INFO streaming.StreamJob:  map 100%  reduce 62%
+15/02/11 16:53:25 INFO streaming.StreamJob:  map 100%  reduce 63%
+15/02/11 16:53:28 INFO streaming.StreamJob:  map 100%  reduce 64%
+15/02/11 16:53:30 INFO streaming.StreamJob:  map 100%  reduce 65%
+15/02/11 16:53:32 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/02/11 16:53:34 INFO streaming.StreamJob:  map 100%  reduce 67%
+15/02/11 16:53:36 INFO streaming.StreamJob:  map 100%  reduce 68%
+15/02/11 16:53:38 INFO streaming.StreamJob:  map 100%  reduce 69%
+15/02/11 16:53:40 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/02/11 16:53:41 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/11 16:53:43 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/11 16:53:44 INFO streaming.StreamJob:  map 100%  reduce 73%
+15/02/11 16:53:46 INFO streaming.StreamJob:  map 100%  reduce 74%
+15/02/11 16:53:47 INFO streaming.StreamJob:  map 100%  reduce 75%
+15/02/11 16:53:49 INFO streaming.StreamJob:  map 100%  reduce 76%
+15/02/11 16:53:51 INFO streaming.StreamJob:  map 100%  reduce 77%
+15/02/11 16:53:53 INFO streaming.StreamJob:  map 100%  reduce 78%
+15/02/11 16:53:55 INFO streaming.StreamJob:  map 100%  reduce 79%
+15/02/11 16:53:57 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/11 16:53:59 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/11 16:54:01 INFO streaming.StreamJob:  map 100%  reduce 82%
+15/02/11 16:54:02 INFO streaming.StreamJob:  map 100%  reduce 83%
+15/02/11 16:54:03 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/02/11 16:54:04 INFO streaming.StreamJob:  map 100%  reduce 85%
+15/02/11 16:54:05 INFO streaming.StreamJob:  map 100%  reduce 86%
+15/02/11 16:54:06 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/02/11 16:54:07 INFO streaming.StreamJob:  map 100%  reduce 88%
+15/02/11 16:54:08 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/02/11 16:54:09 INFO streaming.StreamJob:  map 100%  reduce 90%
+15/02/11 16:54:10 INFO streaming.StreamJob:  map 100%  reduce 91%
+15/02/11 16:54:11 INFO streaming.StreamJob:  map 100%  reduce 92%
+15/02/11 16:54:12 INFO streaming.StreamJob:  map 100%  reduce 93%
+15/02/11 16:54:13 INFO streaming.StreamJob:  map 100%  reduce 94%
+15/02/11 16:54:15 INFO streaming.StreamJob:  map 100%  reduce 95%
+15/02/11 16:54:17 INFO streaming.StreamJob:  map 100%  reduce 96%
+15/02/11 16:54:19 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/02/11 16:54:21 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/02/11 16:54:24 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/02/11 16:54:32 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/11 16:57:10 INFO streaming.StreamJob: Job complete: job_201502082016_32221
+15/02/11 16:57:10 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 16:57:11 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.countlines.py, /tmp/hadoop-chongweishen/hadoop-unjar5838354842475162913/] [] /tmp/streamjob3910664113354336275.jar tmpDir=null
+15/02/11 16:57:12 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/11 16:57:12 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/11 16:57:12 INFO mapred.FileInputFormat: Total input paths to process : 1697
+15/02/11 16:57:14 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/11 16:57:14 INFO streaming.StreamJob: Running job: job_201502082016_32290
+15/02/11 16:57:14 INFO streaming.StreamJob: To kill this job, run:
+15/02/11 16:57:14 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_32290
+15/02/11 16:57:14 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_32290
+15/02/11 16:57:15 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/11 16:57:19 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/11 16:57:20 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/11 16:57:21 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/11 16:57:22 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/11 16:57:23 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/11 16:57:24 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/11 16:57:35 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/11 16:57:39 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/11 16:57:41 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/11 16:57:42 INFO streaming.StreamJob: Job complete: job_201502082016_32290
+15/02/11 16:57:42 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two/cl
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 16:57:44 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 16:57:44 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.assign.py, /tmp/hadoop-chongweishen/hadoop-unjar6408810793431270653/] [] /tmp/streamjob6695729667703105922.jar tmpDir=null
+15/02/11 16:57:45 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/11 16:57:45 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/11 16:57:46 INFO mapred.FileInputFormat: Total input paths to process : 1697
+15/02/11 16:57:48 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/11 16:57:48 INFO streaming.StreamJob: Running job: job_201502082016_32302
+15/02/11 16:57:48 INFO streaming.StreamJob: To kill this job, run:
+15/02/11 16:57:48 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_32302
+15/02/11 16:57:48 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_32302
+15/02/11 16:57:49 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/11 16:57:58 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/11 16:57:59 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/11 16:58:00 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/11 16:58:01 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/11 16:58:02 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/11 16:58:03 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/11 16:58:04 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/11 16:58:05 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/11 16:58:06 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/11 16:58:07 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/11 16:58:08 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/11 16:58:09 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/11 16:58:10 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/11 16:58:11 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/11 16:58:12 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/11 16:58:13 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/11 16:58:15 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/11 16:58:15 INFO streaming.StreamJob: Job complete: job_201502082016_32302
+15/02/11 16:58:15 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two/final
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove training_data/round.three: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 16:58:17 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round3.map.py, ./round3.red.py, /tmp/hadoop-chongweishen/hadoop-unjar8958094394399424856/] [] /tmp/streamjob6599524626976912586.jar tmpDir=null
+15/02/11 16:58:18 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/11 16:58:18 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/11 16:58:19 INFO mapred.FileInputFormat: Total input paths to process : 3844
+15/02/11 16:58:22 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/11 16:58:22 INFO streaming.StreamJob: Running job: job_201502082016_32331
+15/02/11 16:58:22 INFO streaming.StreamJob: To kill this job, run:
+15/02/11 16:58:22 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_32331
+15/02/11 16:58:22 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_32331
+15/02/11 16:58:23 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/11 16:58:33 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/11 16:58:35 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/11 16:58:36 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/11 16:58:37 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/11 16:58:39 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/11 16:58:41 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/11 16:58:42 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/11 16:58:43 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/11 16:58:45 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/11 16:58:46 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/11 16:58:48 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/11 16:58:49 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/11 16:58:50 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/11 16:58:51 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/11 16:58:54 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/11 16:58:55 INFO streaming.StreamJob:  map 17%  reduce 0%
+15/02/11 16:58:57 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/11 16:58:59 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/11 16:59:06 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/11 16:59:13 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/11 16:59:16 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/11 16:59:18 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/11 16:59:20 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/11 16:59:21 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/11 16:59:23 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/11 16:59:25 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/11 16:59:27 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/11 16:59:28 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/11 16:59:30 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/11 16:59:32 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/11 16:59:34 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/11 16:59:35 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/11 16:59:37 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/11 16:59:39 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/11 16:59:41 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/11 16:59:43 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/11 16:59:46 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/11 16:59:48 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/11 16:59:50 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/11 16:59:52 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/11 16:59:54 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/11 16:59:56 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/11 16:59:58 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/11 17:00:00 INFO streaming.StreamJob:  map 45%  reduce 0%
+15/02/11 17:00:02 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/11 17:00:04 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/11 17:00:07 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/11 17:00:14 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/11 17:00:20 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/11 17:00:22 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/11 17:00:25 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/11 17:00:28 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/11 17:00:30 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/11 17:00:32 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/11 17:00:34 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/11 17:00:37 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/11 17:00:41 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/11 17:00:52 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/11 17:00:56 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/11 17:00:59 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/11 17:01:01 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/11 17:01:03 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/11 17:01:05 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/11 17:01:07 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/11 17:01:09 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/11 17:01:11 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/11 17:01:13 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/11 17:01:17 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/11 17:01:25 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/11 17:01:30 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/11 17:01:33 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/11 17:01:35 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/11 17:01:38 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/11 17:01:40 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/11 17:01:43 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/11 17:01:45 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/11 17:01:47 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/11 17:01:49 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/11 17:01:51 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/11 17:01:52 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/11 17:01:53 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/11 17:01:54 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/11 17:01:55 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/11 17:01:56 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/11 17:01:57 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/11 17:01:58 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/11 17:01:59 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/11 17:02:00 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/11 17:02:01 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/11 17:02:02 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/11 17:02:04 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/11 17:02:05 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/11 17:02:06 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/11 17:02:07 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/11 17:02:14 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/11 17:02:33 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/11 17:02:39 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/11 17:02:46 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/11 17:02:56 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/11 17:03:04 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/11 17:03:11 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/11 17:03:20 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/11 17:03:26 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/11 17:03:31 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/11 17:03:34 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/11 17:03:37 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/11 17:03:38 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/11 17:03:40 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/11 17:03:43 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/11 17:03:44 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/11 17:03:47 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/11 17:03:49 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/11 17:03:51 INFO streaming.StreamJob:  map 100%  reduce 19%
+15/02/11 17:03:53 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/11 17:03:55 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/11 17:03:57 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/11 17:03:59 INFO streaming.StreamJob:  map 100%  reduce 23%
+15/02/11 17:04:02 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/11 17:04:04 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/11 17:04:06 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/11 17:04:08 INFO streaming.StreamJob:  map 100%  reduce 27%
+15/02/11 17:04:11 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/11 17:04:13 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/11 17:04:16 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/11 17:04:20 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/11 17:04:22 INFO streaming.StreamJob:  map 100%  reduce 32%
+15/02/11 17:04:25 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/11 17:04:28 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/11 17:04:32 INFO streaming.StreamJob:  map 100%  reduce 35%
+15/02/11 17:04:36 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/11 17:04:40 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/11 17:04:44 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/11 17:04:49 INFO streaming.StreamJob:  map 100%  reduce 39%
+15/02/11 17:04:54 INFO streaming.StreamJob:  map 100%  reduce 40%
+15/02/11 17:05:01 INFO streaming.StreamJob:  map 100%  reduce 41%
+15/02/11 17:05:09 INFO streaming.StreamJob:  map 100%  reduce 42%
+15/02/11 17:05:16 INFO streaming.StreamJob:  map 100%  reduce 43%
+15/02/11 17:05:24 INFO streaming.StreamJob:  map 100%  reduce 44%
+15/02/11 17:05:32 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/02/11 17:05:39 INFO streaming.StreamJob:  map 100%  reduce 46%
+15/02/11 17:05:44 INFO streaming.StreamJob:  map 100%  reduce 47%
+15/02/11 17:05:52 INFO streaming.StreamJob:  map 100%  reduce 48%
+15/02/11 17:05:57 INFO streaming.StreamJob:  map 100%  reduce 49%
+15/02/11 17:06:03 INFO streaming.StreamJob:  map 100%  reduce 50%
+15/02/11 17:06:06 INFO streaming.StreamJob:  map 100%  reduce 51%
+15/02/11 17:06:12 INFO streaming.StreamJob:  map 100%  reduce 52%
+15/02/11 17:06:17 INFO streaming.StreamJob:  map 100%  reduce 53%
+15/02/11 17:06:21 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/02/11 17:06:27 INFO streaming.StreamJob:  map 100%  reduce 55%
+15/02/11 17:06:29 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/11 17:06:31 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/11 17:06:33 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/02/11 17:06:36 INFO streaming.StreamJob:  map 100%  reduce 59%
+15/02/11 17:06:37 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/02/11 17:06:39 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/02/11 17:06:41 INFO streaming.StreamJob:  map 100%  reduce 62%
+15/02/11 17:06:44 INFO streaming.StreamJob:  map 100%  reduce 63%
+15/02/11 17:06:46 INFO streaming.StreamJob:  map 100%  reduce 64%
+15/02/11 17:06:48 INFO streaming.StreamJob:  map 100%  reduce 65%
+15/02/11 17:06:50 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/02/11 17:06:52 INFO streaming.StreamJob:  map 100%  reduce 67%
+15/02/11 17:06:53 INFO streaming.StreamJob:  map 100%  reduce 68%
+15/02/11 17:06:55 INFO streaming.StreamJob:  map 100%  reduce 69%
+15/02/11 17:06:58 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/02/11 17:06:59 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/11 17:07:03 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/11 17:07:05 INFO streaming.StreamJob:  map 100%  reduce 73%
+15/02/11 17:07:09 INFO streaming.StreamJob:  map 100%  reduce 74%
+15/02/11 17:07:10 INFO streaming.StreamJob:  map 100%  reduce 75%
+15/02/11 17:07:11 INFO streaming.StreamJob:  map 100%  reduce 76%
+15/02/11 17:07:13 INFO streaming.StreamJob:  map 100%  reduce 77%
+15/02/11 17:07:14 INFO streaming.StreamJob:  map 100%  reduce 78%
+15/02/11 17:07:16 INFO streaming.StreamJob:  map 100%  reduce 79%
+15/02/11 17:07:18 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/11 17:07:20 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/11 17:07:23 INFO streaming.StreamJob:  map 100%  reduce 82%
+15/02/11 17:07:26 INFO streaming.StreamJob:  map 100%  reduce 83%
+15/02/11 17:07:31 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/02/11 17:07:36 INFO streaming.StreamJob:  map 100%  reduce 85%
+15/02/11 17:07:42 INFO streaming.StreamJob:  map 100%  reduce 86%
+15/02/11 17:07:48 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/02/11 17:07:54 INFO streaming.StreamJob:  map 100%  reduce 88%
+15/02/11 17:08:01 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/02/11 17:08:07 INFO streaming.StreamJob:  map 100%  reduce 90%
+15/02/11 17:08:14 INFO streaming.StreamJob:  map 100%  reduce 91%
+15/02/11 17:08:21 INFO streaming.StreamJob:  map 100%  reduce 92%
+15/02/11 17:08:28 INFO streaming.StreamJob:  map 100%  reduce 93%
+15/02/11 17:08:37 INFO streaming.StreamJob:  map 100%  reduce 94%
+15/02/11 17:08:45 INFO streaming.StreamJob:  map 100%  reduce 95%
+15/02/11 17:08:51 INFO streaming.StreamJob:  map 100%  reduce 96%
+15/02/11 17:08:54 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/02/11 17:09:00 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/02/11 17:09:09 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/02/11 17:09:31 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/11 17:11:01 INFO streaming.StreamJob: Job complete: job_201502082016_32331
+15/02/11 17:11:01 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.three
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove /user/ml/personal_new/training_data/round.four: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 17:11:03 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round4.map.py, ./round4.red.py, /tmp/hadoop-chongweishen/hadoop-unjar4987287241932912455/] [] /tmp/streamjob3128382822667701749.jar tmpDir=null
+15/02/11 17:11:04 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/11 17:11:04 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/11 17:11:05 INFO mapred.FileInputFormat: Total input paths to process : 3636
+15/02/11 17:11:14 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/11 17:11:14 INFO streaming.StreamJob: Running job: job_201502082016_32601
+15/02/11 17:11:14 INFO streaming.StreamJob: To kill this job, run:
+15/02/11 17:11:14 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_32601
+15/02/11 17:11:14 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_32601
+15/02/11 17:11:15 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/11 17:11:26 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/11 17:11:28 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/11 17:11:30 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/11 17:11:31 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/11 17:11:33 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/11 17:11:34 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/11 17:11:36 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/11 17:11:37 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/11 17:11:38 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/11 17:11:39 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/11 17:11:41 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/11 17:11:43 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/11 17:11:45 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/11 17:11:47 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/11 17:11:49 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/11 17:11:54 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/11 17:11:59 INFO streaming.StreamJob:  map 17%  reduce 0%
+15/02/11 17:12:02 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/11 17:12:05 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/11 17:12:08 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/11 17:12:09 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/11 17:12:11 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/11 17:12:13 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/11 17:12:15 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/11 17:12:16 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/11 17:12:18 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/11 17:12:20 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/11 17:12:22 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/11 17:12:24 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/11 17:12:26 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/11 17:12:29 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/11 17:12:32 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/11 17:12:36 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/11 17:12:41 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/11 17:12:46 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/11 17:12:52 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/11 17:12:56 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/11 17:13:03 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/11 17:13:19 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/11 17:13:27 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/11 17:13:36 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/11 17:13:53 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/11 17:14:00 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/11 17:14:05 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/11 17:14:08 INFO streaming.StreamJob:  map 45%  reduce 0%
+15/02/11 17:14:11 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/11 17:14:14 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/11 17:14:17 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/11 17:14:20 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/11 17:14:22 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/11 17:14:25 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/11 17:14:27 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/11 17:14:30 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/11 17:14:33 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/11 17:14:36 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/11 17:14:39 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/11 17:14:44 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/11 17:14:50 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/11 17:14:57 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/11 17:15:02 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/11 17:15:06 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/11 17:15:09 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/11 17:15:13 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/11 17:15:16 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/11 17:15:18 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/11 17:15:21 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/11 17:15:23 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/11 17:15:26 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/11 17:15:29 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/11 17:15:32 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/11 17:15:35 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/11 17:15:39 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/11 17:15:44 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/11 17:15:48 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/11 17:15:51 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/11 17:15:54 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/11 17:15:57 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/11 17:16:00 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/11 17:16:04 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/11 17:16:18 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/11 17:16:27 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/11 17:16:33 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/11 17:16:36 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/11 17:16:38 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/11 17:16:39 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/11 17:16:41 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/11 17:16:42 INFO streaming.StreamJob:  map 87%  reduce 0%
+15/02/11 17:16:44 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/11 17:16:45 INFO streaming.StreamJob:  map 89%  reduce 0%
+15/02/11 17:16:47 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/11 17:16:49 INFO streaming.StreamJob:  map 91%  reduce 0%
+15/02/11 17:16:52 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/11 17:16:55 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/11 17:16:59 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/11 17:17:02 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/02/11 17:17:05 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/11 17:17:06 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/02/11 17:17:07 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/11 17:17:08 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/11 17:17:11 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/11 17:17:23 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/11 17:17:35 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/11 17:17:48 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/11 17:18:02 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/11 17:18:13 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/11 17:18:20 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/11 17:18:27 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/11 17:18:35 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/11 17:18:42 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/11 17:18:48 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/11 17:18:53 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/11 17:18:55 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/11 17:18:58 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/11 17:19:02 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/11 17:19:04 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/11 17:19:06 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/11 17:19:09 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/11 17:19:15 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/11 17:19:20 INFO streaming.StreamJob:  map 100%  reduce 19%
+15/02/11 17:19:22 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/11 17:19:25 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/11 17:19:29 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/11 17:19:32 INFO streaming.StreamJob:  map 100%  reduce 23%
+15/02/11 17:19:38 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/11 17:19:49 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/11 17:19:56 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/11 17:20:00 INFO streaming.StreamJob:  map 100%  reduce 27%
+15/02/11 17:20:06 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/11 17:20:12 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/11 17:20:15 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/11 17:20:18 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/11 17:20:22 INFO streaming.StreamJob:  map 100%  reduce 32%
+15/02/11 17:20:25 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/11 17:20:29 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/11 17:20:35 INFO streaming.StreamJob:  map 100%  reduce 35%
+15/02/11 17:20:40 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/11 17:20:50 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/11 17:21:01 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/11 17:21:09 INFO streaming.StreamJob:  map 100%  reduce 39%
+15/02/11 17:21:19 INFO streaming.StreamJob:  map 100%  reduce 40%
+15/02/11 17:21:27 INFO streaming.StreamJob:  map 100%  reduce 41%
+15/02/11 17:21:35 INFO streaming.StreamJob:  map 100%  reduce 42%
+15/02/11 17:21:44 INFO streaming.StreamJob:  map 100%  reduce 43%
+15/02/11 17:21:52 INFO streaming.StreamJob:  map 100%  reduce 44%
+15/02/11 17:22:04 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/02/11 17:22:18 INFO streaming.StreamJob:  map 100%  reduce 46%
+15/02/11 17:22:25 INFO streaming.StreamJob:  map 100%  reduce 47%
+15/02/11 17:22:32 INFO streaming.StreamJob:  map 100%  reduce 48%
+15/02/11 17:22:41 INFO streaming.StreamJob:  map 100%  reduce 49%
+15/02/11 17:22:46 INFO streaming.StreamJob:  map 100%  reduce 50%
+15/02/11 17:22:52 INFO streaming.StreamJob:  map 100%  reduce 51%
+15/02/11 17:22:57 INFO streaming.StreamJob:  map 100%  reduce 52%
+15/02/11 17:23:01 INFO streaming.StreamJob:  map 100%  reduce 53%
+15/02/11 17:23:04 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/02/11 17:23:05 INFO streaming.StreamJob:  map 100%  reduce 55%
+15/02/11 17:23:08 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/11 17:23:10 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/11 17:23:13 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/02/11 17:23:15 INFO streaming.StreamJob:  map 100%  reduce 59%
+15/02/11 17:23:18 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/02/11 17:23:20 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/02/11 17:23:22 INFO streaming.StreamJob:  map 100%  reduce 62%
+15/02/11 17:23:26 INFO streaming.StreamJob:  map 100%  reduce 63%
+15/02/11 17:23:28 INFO streaming.StreamJob:  map 100%  reduce 64%
+15/02/11 17:23:30 INFO streaming.StreamJob:  map 100%  reduce 65%
+15/02/11 17:23:32 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/02/11 17:23:34 INFO streaming.StreamJob:  map 100%  reduce 67%
+15/02/11 17:23:35 INFO streaming.StreamJob:  map 100%  reduce 68%
+15/02/11 17:23:38 INFO streaming.StreamJob:  map 100%  reduce 69%
+15/02/11 17:23:40 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/02/11 17:23:41 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/11 17:23:44 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/11 17:23:46 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/11 17:23:50 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/11 17:23:55 INFO streaming.StreamJob:  map 100%  reduce 73%
+15/02/11 17:24:01 INFO streaming.StreamJob:  map 100%  reduce 74%
+15/02/11 17:24:06 INFO streaming.StreamJob:  map 100%  reduce 75%
+15/02/11 17:24:11 INFO streaming.StreamJob:  map 100%  reduce 76%
+15/02/11 17:24:17 INFO streaming.StreamJob:  map 100%  reduce 77%
+15/02/11 17:24:22 INFO streaming.StreamJob:  map 100%  reduce 78%
+15/02/11 17:24:27 INFO streaming.StreamJob:  map 100%  reduce 79%
+15/02/11 17:24:32 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/11 17:24:39 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/11 17:24:45 INFO streaming.StreamJob:  map 100%  reduce 82%
+15/02/11 17:24:53 INFO streaming.StreamJob:  map 100%  reduce 83%
+15/02/11 17:25:01 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/02/11 17:25:08 INFO streaming.StreamJob:  map 100%  reduce 85%
+15/02/11 17:25:14 INFO streaming.StreamJob:  map 100%  reduce 86%
+15/02/11 17:25:26 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/02/11 17:25:38 INFO streaming.StreamJob:  map 100%  reduce 88%
+15/02/11 17:25:44 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/02/11 17:25:48 INFO streaming.StreamJob:  map 100%  reduce 90%
+15/02/11 17:25:49 INFO streaming.StreamJob:  map 100%  reduce 91%
+15/02/11 17:25:52 INFO streaming.StreamJob:  map 100%  reduce 92%
+15/02/11 17:25:55 INFO streaming.StreamJob:  map 100%  reduce 93%
+15/02/11 17:25:58 INFO streaming.StreamJob:  map 100%  reduce 94%
+15/02/11 17:26:05 INFO streaming.StreamJob:  map 100%  reduce 95%
+15/02/11 17:26:12 INFO streaming.StreamJob:  map 100%  reduce 96%
+15/02/11 17:26:22 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/02/11 17:26:32 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/02/11 17:26:46 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/02/11 17:27:13 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/11 17:28:59 INFO streaming.StreamJob: Job complete: job_201502082016_32601
+15/02/11 17:28:59 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.four
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/11 17:29:00 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove training_data/round.two: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 10:47:27 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.map1.py, ./round2.red2.py, /tmp/hadoop-chongweishen/hadoop-unjar7962217312272144988/] [] /tmp/streamjob3847118803453582355.jar tmpDir=null
+15/02/12 10:47:28 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 10:47:28 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 10:47:28 INFO mapred.FileInputFormat: Total input paths to process : 2147
+15/02/12 10:47:31 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 10:47:31 INFO streaming.StreamJob: Running job: job_201502082016_45061
+15/02/12 10:47:31 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 10:47:31 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_45061
+15/02/12 10:47:31 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_45061
+15/02/12 10:47:32 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 10:47:43 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/12 10:47:44 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/12 10:47:45 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/12 10:47:46 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/12 10:47:47 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/12 10:47:48 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/12 10:47:49 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/12 10:47:52 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/12 10:47:52 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 10:47:52 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_45061
+15/02/12 10:47:52 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_45061
+15/02/12 10:47:52 ERROR streaming.StreamJob: Job not successful. Error: NA
+15/02/12 10:47:52 INFO streaming.StreamJob: killJob...
+Streaming Command Failed!
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove training_data/round.two: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 18:48:29 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.map1.py, ./round2.red2.py, /tmp/hadoop-chongweishen/hadoop-unjar7943882469652726137/] [] /tmp/streamjob6554631308233203070.jar tmpDir=null
+15/02/12 18:48:29 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 18:48:29 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 18:48:30 INFO mapred.FileInputFormat: Total input paths to process : 2147
+15/02/12 18:48:33 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 18:48:33 INFO streaming.StreamJob: Running job: job_201502082016_48144
+15/02/12 18:48:33 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 18:48:33 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48144
+15/02/12 18:48:33 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48144
+15/02/12 18:48:34 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 18:48:47 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/12 18:48:48 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/12 18:48:49 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/12 18:48:50 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/12 18:48:52 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/12 18:48:56 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/12 18:48:58 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/12 18:49:01 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/12 18:49:03 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/12 18:49:05 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/12 18:49:07 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/12 18:49:09 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/12 18:49:11 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/12 18:49:14 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/12 18:49:16 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/12 18:49:18 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/12 18:49:20 INFO streaming.StreamJob:  map 17%  reduce 0%
+15/02/12 18:49:22 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/12 18:49:25 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/12 18:49:27 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/12 18:49:30 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/12 18:49:33 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/12 18:49:35 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/12 18:49:37 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/12 18:49:40 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/12 18:49:43 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/12 18:49:45 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/12 18:49:48 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/12 18:49:50 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/12 18:49:52 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/12 18:49:54 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/12 18:49:56 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/12 18:49:59 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/12 18:50:02 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/12 18:50:04 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/12 18:50:06 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/12 18:50:08 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/12 18:50:10 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/12 18:50:12 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/12 18:50:14 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/12 18:50:16 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/12 18:50:19 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/12 18:50:21 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/12 18:50:23 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/12 18:50:27 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/12 18:50:29 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/12 18:50:31 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/12 18:50:33 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/12 18:50:35 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/12 18:50:37 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/12 18:50:39 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/12 18:50:41 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/12 18:50:43 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/12 18:50:45 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/12 18:50:47 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/12 18:50:49 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/12 18:50:51 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/12 18:50:53 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/12 18:50:55 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/12 18:50:57 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/12 18:50:59 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/12 18:51:01 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/12 18:51:04 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/12 18:51:06 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/12 18:51:08 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/12 18:51:10 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/12 18:51:12 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/12 18:51:14 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/12 18:51:16 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/12 18:51:18 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/12 18:51:19 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/12 18:51:21 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/12 18:51:24 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/12 18:51:26 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/12 18:51:28 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/12 18:51:30 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/12 18:51:32 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/12 18:51:34 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/12 18:51:36 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/12 18:51:37 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/12 18:51:39 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/12 18:51:41 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/12 18:51:43 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/12 18:51:45 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/12 18:51:47 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/12 18:51:49 INFO streaming.StreamJob:  map 87%  reduce 0%
+15/02/12 18:51:51 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/12 18:51:53 INFO streaming.StreamJob:  map 89%  reduce 0%
+15/02/12 18:51:55 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/12 18:51:57 INFO streaming.StreamJob:  map 91%  reduce 0%
+15/02/12 18:51:59 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/12 18:52:01 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/12 18:52:03 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/12 18:52:05 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/02/12 18:52:07 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/12 18:52:08 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/02/12 18:52:10 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/12 18:52:11 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/12 18:52:13 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/12 18:52:22 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/12 18:52:32 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/12 18:52:45 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/12 18:52:59 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/12 18:53:09 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/12 18:53:21 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/12 18:53:30 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/12 18:53:46 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/12 18:53:56 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/12 18:54:06 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/12 18:54:15 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/12 18:54:30 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/12 18:54:41 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/12 18:54:51 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/12 18:54:59 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/12 18:55:00 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/12 18:55:01 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/12 18:55:02 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/12 18:55:03 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/12 18:55:04 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/12 18:55:05 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/12 18:55:06 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/12 18:55:07 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/12 18:55:08 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/12 18:55:09 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/12 18:55:10 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/12 18:55:11 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/12 18:55:12 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/12 18:55:13 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/12 18:55:14 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/12 18:55:15 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/12 18:55:16 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/12 18:55:17 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/12 18:55:18 INFO streaming.StreamJob:  map 100%  reduce 39%
+15/02/12 18:55:19 INFO streaming.StreamJob:  map 100%  reduce 40%
+15/02/12 18:55:20 INFO streaming.StreamJob:  map 100%  reduce 41%
+15/02/12 18:55:23 INFO streaming.StreamJob:  map 100%  reduce 42%
+15/02/12 18:55:24 INFO streaming.StreamJob:  map 100%  reduce 43%
+15/02/12 18:55:27 INFO streaming.StreamJob:  map 100%  reduce 44%
+15/02/12 18:55:32 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/02/12 18:55:39 INFO streaming.StreamJob:  map 100%  reduce 46%
+15/02/12 18:55:53 INFO streaming.StreamJob:  map 100%  reduce 47%
+15/02/12 18:56:07 INFO streaming.StreamJob:  map 100%  reduce 48%
+15/02/12 18:56:20 INFO streaming.StreamJob:  map 100%  reduce 49%
+15/02/12 18:56:33 INFO streaming.StreamJob:  map 100%  reduce 50%
+15/02/12 18:56:45 INFO streaming.StreamJob:  map 100%  reduce 51%
+15/02/12 18:56:57 INFO streaming.StreamJob:  map 100%  reduce 52%
+15/02/12 18:57:08 INFO streaming.StreamJob:  map 100%  reduce 53%
+15/02/12 18:57:19 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/02/12 18:57:30 INFO streaming.StreamJob:  map 100%  reduce 55%
+15/02/12 18:57:40 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/12 18:57:48 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/12 18:57:54 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/02/12 18:57:57 INFO streaming.StreamJob:  map 100%  reduce 59%
+15/02/12 18:57:58 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/02/12 18:57:59 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/02/12 18:58:00 INFO streaming.StreamJob:  map 100%  reduce 62%
+15/02/12 18:58:01 INFO streaming.StreamJob:  map 100%  reduce 63%
+15/02/12 18:58:02 INFO streaming.StreamJob:  map 100%  reduce 64%
+15/02/12 18:58:03 INFO streaming.StreamJob:  map 100%  reduce 65%
+15/02/12 18:58:05 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/02/12 18:58:07 INFO streaming.StreamJob:  map 100%  reduce 68%
+15/02/12 18:58:09 INFO streaming.StreamJob:  map 100%  reduce 69%
+15/02/12 18:58:10 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/02/12 18:58:12 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/12 18:58:13 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/12 18:58:14 INFO streaming.StreamJob:  map 100%  reduce 73%
+15/02/12 18:58:16 INFO streaming.StreamJob:  map 100%  reduce 74%
+15/02/12 18:58:18 INFO streaming.StreamJob:  map 100%  reduce 75%
+15/02/12 18:58:20 INFO streaming.StreamJob:  map 100%  reduce 76%
+15/02/12 18:58:22 INFO streaming.StreamJob:  map 100%  reduce 77%
+15/02/12 18:58:23 INFO streaming.StreamJob:  map 100%  reduce 78%
+15/02/12 18:58:24 INFO streaming.StreamJob:  map 100%  reduce 79%
+15/02/12 18:58:26 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/12 18:58:28 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/12 18:58:31 INFO streaming.StreamJob:  map 100%  reduce 82%
+15/02/12 18:58:36 INFO streaming.StreamJob:  map 100%  reduce 83%
+15/02/12 18:58:44 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/02/12 18:58:58 INFO streaming.StreamJob:  map 100%  reduce 85%
+15/02/12 18:59:05 INFO streaming.StreamJob:  map 100%  reduce 86%
+15/02/12 18:59:13 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/02/12 18:59:29 INFO streaming.StreamJob:  map 100%  reduce 88%
+15/02/12 18:59:52 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/02/12 19:00:12 INFO streaming.StreamJob:  map 100%  reduce 90%
+15/02/12 19:00:19 INFO streaming.StreamJob:  map 100%  reduce 91%
+15/02/12 19:00:21 INFO streaming.StreamJob:  map 100%  reduce 92%
+15/02/12 19:00:23 INFO streaming.StreamJob:  map 100%  reduce 93%
+15/02/12 19:00:24 INFO streaming.StreamJob:  map 100%  reduce 94%
+15/02/12 19:00:26 INFO streaming.StreamJob:  map 100%  reduce 95%
+15/02/12 19:00:27 INFO streaming.StreamJob:  map 100%  reduce 96%
+15/02/12 19:00:29 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/02/12 19:00:31 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/02/12 19:00:35 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/02/12 19:00:41 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/12 19:03:46 INFO streaming.StreamJob: Job complete: job_201502082016_48144
+15/02/12 19:03:46 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 19:03:47 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.countlines.py, /tmp/hadoop-chongweishen/hadoop-unjar6288959023983993715/] [] /tmp/streamjob8555209321847795975.jar tmpDir=null
+15/02/12 19:03:48 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 19:03:48 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 19:03:48 INFO mapred.FileInputFormat: Total input paths to process : 1697
+15/02/12 19:03:50 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 19:03:50 INFO streaming.StreamJob: Running job: job_201502082016_48183
+15/02/12 19:03:50 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 19:03:50 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48183
+15/02/12 19:03:50 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48183
+15/02/12 19:03:51 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 19:03:54 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/12 19:03:55 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/12 19:03:56 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/12 19:03:57 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/12 19:03:58 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/12 19:03:59 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/12 19:04:06 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/12 19:04:12 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/12 19:04:14 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/12 19:04:17 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/12 19:04:20 INFO streaming.StreamJob: Job complete: job_201502082016_48183
+15/02/12 19:04:20 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two/cl
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 19:04:21 INFO util.NativeCodeLoader: Loaded the native-hadoop library
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 19:04:23 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round2.assign.py, /tmp/hadoop-chongweishen/hadoop-unjar7475919915289756245/] [] /tmp/streamjob8581815258460247649.jar tmpDir=null
+15/02/12 19:04:23 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 19:04:23 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 19:04:24 INFO mapred.FileInputFormat: Total input paths to process : 1697
+15/02/12 19:04:26 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 19:04:26 INFO streaming.StreamJob: Running job: job_201502082016_48185
+15/02/12 19:04:26 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 19:04:26 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48185
+15/02/12 19:04:26 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48185
+15/02/12 19:04:27 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 19:04:36 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/12 19:04:37 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/12 19:04:38 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/12 19:04:39 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/12 19:04:40 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/12 19:04:41 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/12 19:04:42 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/12 19:04:43 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/12 19:04:50 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/12 19:04:50 INFO streaming.StreamJob: Job complete: job_201502082016_48185
+15/02/12 19:04:50 INFO streaming.StreamJob: Output: /user/ml/personal_new/training_data/round.two/final
+Warning: $HADOOP_HOME is deprecated.
+
+rmr: cannot remove training_data/round.three: No such file or directory.
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 19:04:52 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round3.map.py, ./round3.red.py, /tmp/hadoop-chongweishen/hadoop-unjar5019232970562626363/] [] /tmp/streamjob4424760293941931165.jar tmpDir=null
+15/02/12 19:04:53 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 19:04:53 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 19:04:53 INFO mapred.FileInputFormat: Total input paths to process : 3844
+15/02/12 19:04:59 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 19:04:59 INFO streaming.StreamJob: Running job: job_201502082016_48188
+15/02/12 19:04:59 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 19:04:59 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48188
+15/02/12 19:04:59 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48188
+15/02/12 19:05:00 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 19:05:14 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/12 19:05:16 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/12 19:05:19 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/12 19:05:20 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/12 19:05:22 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/12 19:05:25 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/12 19:05:35 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/12 19:05:42 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/12 19:05:47 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/12 19:05:51 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/12 19:05:55 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/12 19:05:59 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/12 19:06:04 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/12 19:06:09 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/12 19:06:14 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/12 19:06:19 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/12 19:06:23 INFO streaming.StreamJob:  map 17%  reduce 0%
+15/02/12 19:06:28 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/12 19:06:34 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/12 19:06:39 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/12 19:06:45 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/12 19:06:50 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/12 19:06:54 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/12 19:07:02 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/12 19:07:10 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/12 19:07:17 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/12 19:07:27 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/12 19:07:36 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/12 19:07:42 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/12 19:07:48 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/12 19:07:53 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/12 19:07:59 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/12 19:08:05 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/12 19:08:10 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/12 19:08:15 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/12 19:08:20 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/12 19:08:25 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/12 19:08:31 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/12 19:08:36 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/12 19:08:42 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/12 19:08:47 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/12 19:08:52 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/12 19:08:57 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/12 19:09:02 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/12 19:09:07 INFO streaming.StreamJob:  map 45%  reduce 0%
+15/02/12 19:09:12 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/12 19:09:17 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/12 19:09:22 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/12 19:09:27 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/12 19:09:33 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/12 19:09:39 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/12 19:09:44 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/12 19:09:49 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/12 19:09:55 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/12 19:10:00 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/12 19:10:05 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/12 19:10:09 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/12 19:10:14 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/12 19:10:18 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/12 19:10:23 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/12 19:10:28 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/12 19:10:33 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/12 19:10:38 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/12 19:10:44 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/12 19:10:49 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/12 19:10:53 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/12 19:10:59 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/12 19:11:04 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/12 19:11:09 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/12 19:11:13 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/12 19:11:18 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/12 19:11:23 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/12 19:11:28 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/12 19:11:33 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/12 19:11:38 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/12 19:11:42 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/12 19:11:47 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/12 19:11:52 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/12 19:11:57 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/12 19:12:02 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/12 19:12:06 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/12 19:12:11 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/12 19:12:16 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/12 19:12:21 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/12 19:12:26 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/12 19:12:31 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/12 19:12:35 INFO streaming.StreamJob:  map 87%  reduce 0%
+15/02/12 19:12:40 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/12 19:12:44 INFO streaming.StreamJob:  map 89%  reduce 0%
+15/02/12 19:12:47 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/12 19:12:50 INFO streaming.StreamJob:  map 91%  reduce 0%
+15/02/12 19:12:52 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/12 19:12:54 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/12 19:12:57 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/12 19:12:59 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/02/12 19:13:01 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/12 19:13:03 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/02/12 19:13:04 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/12 19:13:06 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/12 19:13:08 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/12 19:13:27 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/12 19:14:15 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/12 19:14:54 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/12 19:15:35 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/12 19:16:14 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/12 19:16:51 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/12 19:17:28 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/12 19:18:02 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/12 19:18:35 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/12 19:19:07 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/12 19:19:48 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/12 19:19:58 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/12 19:20:13 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/12 19:20:14 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/12 19:20:57 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/12 19:21:30 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/12 19:22:02 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/12 19:22:34 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/12 19:23:05 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/12 19:23:08 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/12 19:23:10 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/12 19:23:12 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/12 19:23:13 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/12 19:23:15 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/12 19:23:18 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/12 19:23:20 INFO streaming.StreamJob:  map 100%  reduce 19%
+15/02/12 19:23:22 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/12 19:23:25 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/12 19:23:28 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/12 19:23:34 INFO streaming.StreamJob:  map 100%  reduce 23%
+15/02/12 19:23:41 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/12 19:23:50 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/12 19:23:59 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/12 19:24:07 INFO streaming.StreamJob:  map 100%  reduce 27%
+15/02/12 19:24:16 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/12 19:24:26 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/12 19:24:35 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/12 19:24:47 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/12 19:25:01 INFO streaming.StreamJob:  map 100%  reduce 32%
+15/02/12 19:25:15 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/12 19:25:31 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/12 19:25:50 INFO streaming.StreamJob:  map 100%  reduce 35%
+15/02/12 19:26:10 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/12 19:26:33 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/12 19:26:53 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/12 19:26:54 INFO streaming.StreamJob:  map 100%  reduce 100%
+15/02/12 19:26:54 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 19:26:54 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48188
+15/02/12 19:26:54 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48188
+15/02/12 19:26:54 ERROR streaming.StreamJob: Job not successful. Error: NA
+15/02/12 19:26:54 INFO streaming.StreamJob: killJob...
+Streaming Command Failed!
+Warning: $HADOOP_HOME is deprecated.
+
+Moved to trash: hdfs://jxq-nn-01:9000/user/ml/personal_new/training_data/round.three
+Warning: $HADOOP_HOME is deprecated.
+
+15/02/12 19:32:50 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+packageJobJar: [./round3.map.py, ./round3.red.py, /tmp/hadoop-chongweishen/hadoop-unjar6367091229536619205/] [] /tmp/streamjob3206311207378830138.jar tmpDir=null
+15/02/12 19:32:51 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+15/02/12 19:32:51 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev 6bb1b7f8b9044d8df9b4d2b6641db7658aab3cf8]
+15/02/12 19:32:51 INFO mapred.FileInputFormat: Total input paths to process : 3844
+15/02/12 19:32:56 INFO streaming.StreamJob: getLocalDirs(): [/home/hadoop/hdfs/data01/mapred/local/, /home/hadoop/hdfs/data02/mapred/local/, /home/hadoop/hdfs/data03/mapred/local/, /home/hadoop/hdfs/data04/mapred/local/, /home/hadoop/hdfs/data05/mapred/local/, /home/hadoop/hdfs/data06/mapred/local/, /home/hadoop/hdfs/data07/mapred/local/, /home/hadoop/hdfs/data08/mapred/local/, /home/hadoop/hdfs/data09/mapred/local/, /home/hadoop/hdfs/data10/mapred/local/, /home/hadoop/hdfs/data11/mapred/local/, /home/hadoop/hdfs/data12/mapred/local/]
+15/02/12 19:32:56 INFO streaming.StreamJob: Running job: job_201502082016_48321
+15/02/12 19:32:56 INFO streaming.StreamJob: To kill this job, run:
+15/02/12 19:32:56 INFO streaming.StreamJob: /hadoop/hadoop-1.2.1/libexec/../bin/hadoop job  -Dmapred.job.tracker=jxq-job-01:9001 -kill job_201502082016_48321
+15/02/12 19:32:56 INFO streaming.StreamJob: Tracking URL: http://jxq-job-01.meilishuo.com:50030/jobdetails.jsp?jobid=job_201502082016_48321
+15/02/12 19:32:57 INFO streaming.StreamJob:  map 0%  reduce 0%
+15/02/12 19:33:10 INFO streaming.StreamJob:  map 1%  reduce 0%
+15/02/12 19:33:12 INFO streaming.StreamJob:  map 2%  reduce 0%
+15/02/12 19:33:14 INFO streaming.StreamJob:  map 3%  reduce 0%
+15/02/12 19:33:17 INFO streaming.StreamJob:  map 4%  reduce 0%
+15/02/12 19:33:23 INFO streaming.StreamJob:  map 5%  reduce 0%
+15/02/12 19:33:38 INFO streaming.StreamJob:  map 6%  reduce 0%
+15/02/12 19:33:44 INFO streaming.StreamJob:  map 7%  reduce 0%
+15/02/12 19:33:47 INFO streaming.StreamJob:  map 8%  reduce 0%
+15/02/12 19:33:52 INFO streaming.StreamJob:  map 9%  reduce 0%
+15/02/12 19:33:56 INFO streaming.StreamJob:  map 10%  reduce 0%
+15/02/12 19:34:03 INFO streaming.StreamJob:  map 11%  reduce 0%
+15/02/12 19:34:09 INFO streaming.StreamJob:  map 12%  reduce 0%
+15/02/12 19:34:15 INFO streaming.StreamJob:  map 13%  reduce 0%
+15/02/12 19:34:21 INFO streaming.StreamJob:  map 14%  reduce 0%
+15/02/12 19:34:26 INFO streaming.StreamJob:  map 15%  reduce 0%
+15/02/12 19:34:32 INFO streaming.StreamJob:  map 16%  reduce 0%
+15/02/12 19:34:39 INFO streaming.StreamJob:  map 17%  reduce 0%
+15/02/12 19:34:45 INFO streaming.StreamJob:  map 18%  reduce 0%
+15/02/12 19:34:51 INFO streaming.StreamJob:  map 19%  reduce 0%
+15/02/12 19:34:57 INFO streaming.StreamJob:  map 20%  reduce 0%
+15/02/12 19:35:03 INFO streaming.StreamJob:  map 21%  reduce 0%
+15/02/12 19:35:08 INFO streaming.StreamJob:  map 22%  reduce 0%
+15/02/12 19:35:14 INFO streaming.StreamJob:  map 23%  reduce 0%
+15/02/12 19:35:19 INFO streaming.StreamJob:  map 24%  reduce 0%
+15/02/12 19:35:25 INFO streaming.StreamJob:  map 25%  reduce 0%
+15/02/12 19:35:32 INFO streaming.StreamJob:  map 26%  reduce 0%
+15/02/12 19:35:37 INFO streaming.StreamJob:  map 27%  reduce 0%
+15/02/12 19:35:43 INFO streaming.StreamJob:  map 28%  reduce 0%
+15/02/12 19:35:48 INFO streaming.StreamJob:  map 29%  reduce 0%
+15/02/12 19:35:54 INFO streaming.StreamJob:  map 30%  reduce 0%
+15/02/12 19:35:59 INFO streaming.StreamJob:  map 31%  reduce 0%
+15/02/12 19:36:06 INFO streaming.StreamJob:  map 32%  reduce 0%
+15/02/12 19:36:13 INFO streaming.StreamJob:  map 33%  reduce 0%
+15/02/12 19:36:18 INFO streaming.StreamJob:  map 34%  reduce 0%
+15/02/12 19:36:24 INFO streaming.StreamJob:  map 35%  reduce 0%
+15/02/12 19:36:29 INFO streaming.StreamJob:  map 36%  reduce 0%
+15/02/12 19:36:35 INFO streaming.StreamJob:  map 37%  reduce 0%
+15/02/12 19:36:41 INFO streaming.StreamJob:  map 38%  reduce 0%
+15/02/12 19:36:47 INFO streaming.StreamJob:  map 39%  reduce 0%
+15/02/12 19:36:55 INFO streaming.StreamJob:  map 40%  reduce 0%
+15/02/12 19:37:02 INFO streaming.StreamJob:  map 41%  reduce 0%
+15/02/12 19:37:08 INFO streaming.StreamJob:  map 42%  reduce 0%
+15/02/12 19:37:13 INFO streaming.StreamJob:  map 43%  reduce 0%
+15/02/12 19:37:19 INFO streaming.StreamJob:  map 44%  reduce 0%
+15/02/12 19:37:24 INFO streaming.StreamJob:  map 45%  reduce 0%
+15/02/12 19:37:31 INFO streaming.StreamJob:  map 46%  reduce 0%
+15/02/12 19:37:37 INFO streaming.StreamJob:  map 47%  reduce 0%
+15/02/12 19:37:44 INFO streaming.StreamJob:  map 48%  reduce 0%
+15/02/12 19:37:49 INFO streaming.StreamJob:  map 49%  reduce 0%
+15/02/12 19:37:55 INFO streaming.StreamJob:  map 50%  reduce 0%
+15/02/12 19:38:00 INFO streaming.StreamJob:  map 51%  reduce 0%
+15/02/12 19:38:05 INFO streaming.StreamJob:  map 52%  reduce 0%
+15/02/12 19:38:11 INFO streaming.StreamJob:  map 53%  reduce 0%
+15/02/12 19:38:17 INFO streaming.StreamJob:  map 54%  reduce 0%
+15/02/12 19:38:22 INFO streaming.StreamJob:  map 55%  reduce 0%
+15/02/12 19:38:28 INFO streaming.StreamJob:  map 56%  reduce 0%
+15/02/12 19:38:33 INFO streaming.StreamJob:  map 57%  reduce 0%
+15/02/12 19:38:39 INFO streaming.StreamJob:  map 58%  reduce 0%
+15/02/12 19:38:45 INFO streaming.StreamJob:  map 59%  reduce 0%
+15/02/12 19:38:50 INFO streaming.StreamJob:  map 60%  reduce 0%
+15/02/12 19:38:56 INFO streaming.StreamJob:  map 61%  reduce 0%
+15/02/12 19:39:01 INFO streaming.StreamJob:  map 62%  reduce 0%
+15/02/12 19:39:08 INFO streaming.StreamJob:  map 63%  reduce 0%
+15/02/12 19:39:12 INFO streaming.StreamJob:  map 64%  reduce 0%
+15/02/12 19:39:17 INFO streaming.StreamJob:  map 65%  reduce 0%
+15/02/12 19:39:22 INFO streaming.StreamJob:  map 66%  reduce 0%
+15/02/12 19:39:28 INFO streaming.StreamJob:  map 67%  reduce 0%
+15/02/12 19:39:33 INFO streaming.StreamJob:  map 68%  reduce 0%
+15/02/12 19:39:38 INFO streaming.StreamJob:  map 69%  reduce 0%
+15/02/12 19:39:44 INFO streaming.StreamJob:  map 70%  reduce 0%
+15/02/12 19:39:49 INFO streaming.StreamJob:  map 71%  reduce 0%
+15/02/12 19:39:54 INFO streaming.StreamJob:  map 72%  reduce 0%
+15/02/12 19:40:00 INFO streaming.StreamJob:  map 73%  reduce 0%
+15/02/12 19:40:04 INFO streaming.StreamJob:  map 74%  reduce 0%
+15/02/12 19:40:10 INFO streaming.StreamJob:  map 75%  reduce 0%
+15/02/12 19:40:15 INFO streaming.StreamJob:  map 76%  reduce 0%
+15/02/12 19:40:20 INFO streaming.StreamJob:  map 77%  reduce 0%
+15/02/12 19:40:26 INFO streaming.StreamJob:  map 78%  reduce 0%
+15/02/12 19:40:31 INFO streaming.StreamJob:  map 79%  reduce 0%
+15/02/12 19:40:36 INFO streaming.StreamJob:  map 80%  reduce 0%
+15/02/12 19:40:41 INFO streaming.StreamJob:  map 81%  reduce 0%
+15/02/12 19:40:46 INFO streaming.StreamJob:  map 82%  reduce 0%
+15/02/12 19:40:51 INFO streaming.StreamJob:  map 83%  reduce 0%
+15/02/12 19:40:57 INFO streaming.StreamJob:  map 84%  reduce 0%
+15/02/12 19:41:02 INFO streaming.StreamJob:  map 85%  reduce 0%
+15/02/12 19:41:07 INFO streaming.StreamJob:  map 86%  reduce 0%
+15/02/12 19:41:12 INFO streaming.StreamJob:  map 87%  reduce 0%
+15/02/12 19:41:17 INFO streaming.StreamJob:  map 88%  reduce 0%
+15/02/12 19:41:21 INFO streaming.StreamJob:  map 89%  reduce 0%
+15/02/12 19:41:24 INFO streaming.StreamJob:  map 90%  reduce 0%
+15/02/12 19:41:31 INFO streaming.StreamJob:  map 91%  reduce 0%
+15/02/12 19:41:34 INFO streaming.StreamJob:  map 92%  reduce 0%
+15/02/12 19:41:36 INFO streaming.StreamJob:  map 93%  reduce 0%
+15/02/12 19:41:39 INFO streaming.StreamJob:  map 94%  reduce 0%
+15/02/12 19:41:43 INFO streaming.StreamJob:  map 95%  reduce 0%
+15/02/12 19:41:46 INFO streaming.StreamJob:  map 96%  reduce 0%
+15/02/12 19:41:48 INFO streaming.StreamJob:  map 97%  reduce 0%
+15/02/12 19:41:51 INFO streaming.StreamJob:  map 98%  reduce 0%
+15/02/12 19:41:54 INFO streaming.StreamJob:  map 99%  reduce 0%
+15/02/12 19:41:57 INFO streaming.StreamJob:  map 100%  reduce 0%
+15/02/12 19:42:25 INFO streaming.StreamJob:  map 100%  reduce 1%
+15/02/12 19:43:43 INFO streaming.StreamJob:  map 100%  reduce 2%
+15/02/12 19:45:05 INFO streaming.StreamJob:  map 100%  reduce 3%
+15/02/12 19:46:37 INFO streaming.StreamJob:  map 100%  reduce 4%
+15/02/12 19:47:51 INFO streaming.StreamJob:  map 100%  reduce 5%
+15/02/12 19:48:35 INFO streaming.StreamJob:  map 100%  reduce 6%
+15/02/12 19:48:40 INFO streaming.StreamJob:  map 100%  reduce 7%
+15/02/12 19:48:42 INFO streaming.StreamJob:  map 100%  reduce 8%
+15/02/12 19:48:43 INFO streaming.StreamJob:  map 100%  reduce 9%
+15/02/12 19:48:45 INFO streaming.StreamJob:  map 100%  reduce 10%
+15/02/12 19:48:51 INFO streaming.StreamJob:  map 100%  reduce 11%
+15/02/12 19:48:58 INFO streaming.StreamJob:  map 100%  reduce 12%
+15/02/12 19:49:07 INFO streaming.StreamJob:  map 100%  reduce 13%
+15/02/12 19:49:24 INFO streaming.StreamJob:  map 100%  reduce 14%
+15/02/12 19:49:46 INFO streaming.StreamJob:  map 100%  reduce 15%
+15/02/12 19:50:12 INFO streaming.StreamJob:  map 100%  reduce 16%
+15/02/12 19:50:58 INFO streaming.StreamJob:  map 100%  reduce 17%
+15/02/12 19:52:09 INFO streaming.StreamJob:  map 100%  reduce 18%
+15/02/12 19:53:33 INFO streaming.StreamJob:  map 100%  reduce 19%
+15/02/12 19:55:18 INFO streaming.StreamJob:  map 100%  reduce 20%
+15/02/12 19:56:48 INFO streaming.StreamJob:  map 100%  reduce 21%
+15/02/12 19:57:51 INFO streaming.StreamJob:  map 100%  reduce 22%
+15/02/12 19:58:26 INFO streaming.StreamJob:  map 100%  reduce 23%
+15/02/12 19:59:01 INFO streaming.StreamJob:  map 100%  reduce 24%
+15/02/12 19:59:13 INFO streaming.StreamJob:  map 100%  reduce 25%
+15/02/12 19:59:25 INFO streaming.StreamJob:  map 100%  reduce 26%
+15/02/12 19:59:34 INFO streaming.StreamJob:  map 100%  reduce 27%
+15/02/12 19:59:41 INFO streaming.StreamJob:  map 100%  reduce 28%
+15/02/12 19:59:49 INFO streaming.StreamJob:  map 100%  reduce 29%
+15/02/12 20:00:04 INFO streaming.StreamJob:  map 100%  reduce 30%
+15/02/12 20:00:27 INFO streaming.StreamJob:  map 100%  reduce 31%
+15/02/12 20:00:59 INFO streaming.StreamJob:  map 100%  reduce 32%
+15/02/12 20:02:19 INFO streaming.StreamJob:  map 100%  reduce 33%
+15/02/12 20:03:51 INFO streaming.StreamJob:  map 100%  reduce 34%
+15/02/12 20:04:38 INFO streaming.StreamJob:  map 100%  reduce 35%
+15/02/12 20:05:39 INFO streaming.StreamJob:  map 100%  reduce 36%
+15/02/12 20:06:28 INFO streaming.StreamJob:  map 100%  reduce 37%
+15/02/12 20:07:22 INFO streaming.StreamJob:  map 100%  reduce 38%
+15/02/12 20:08:02 INFO streaming.StreamJob:  map 100%  reduce 39%
+15/02/12 20:09:13 INFO streaming.StreamJob:  map 100%  reduce 40%
+15/02/12 20:10:10 INFO streaming.StreamJob:  map 100%  reduce 41%
+15/02/12 20:10:38 INFO streaming.StreamJob:  map 100%  reduce 42%
+15/02/12 20:11:02 INFO streaming.StreamJob:  map 100%  reduce 43%
+15/02/12 20:11:13 INFO streaming.StreamJob:  map 100%  reduce 44%
+15/02/12 20:11:25 INFO streaming.StreamJob:  map 100%  reduce 45%
+15/02/12 20:11:34 INFO streaming.StreamJob:  map 100%  reduce 46%
+15/02/12 20:11:49 INFO streaming.StreamJob:  map 100%  reduce 47%
+15/02/12 20:12:19 INFO streaming.StreamJob:  map 100%  reduce 48%
+15/02/12 20:13:32 INFO streaming.StreamJob:  map 100%  reduce 49%
+15/02/12 20:14:49 INFO streaming.StreamJob:  map 100%  reduce 50%
+15/02/12 20:15:19 INFO streaming.StreamJob:  map 100%  reduce 51%
+15/02/12 20:15:54 INFO streaming.StreamJob:  map 100%  reduce 52%
+15/02/12 20:16:32 INFO streaming.StreamJob:  map 100%  reduce 53%
+15/02/12 20:17:21 INFO streaming.StreamJob:  map 100%  reduce 54%
+15/02/12 20:18:00 INFO streaming.StreamJob:  map 100%  reduce 55%
+15/02/12 20:19:01 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/12 20:20:18 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/12 20:20:20 INFO streaming.StreamJob:  map 100%  reduce 56%
+15/02/12 20:20:31 INFO streaming.StreamJob:  map 100%  reduce 57%
+15/02/12 20:21:03 INFO streaming.StreamJob:  map 100%  reduce 58%
+15/02/12 20:21:18 INFO streaming.StreamJob:  map 100%  reduce 59%
+15/02/12 20:21:35 INFO streaming.StreamJob:  map 100%  reduce 60%
+15/02/12 20:21:46 INFO streaming.StreamJob:  map 100%  reduce 61%
+15/02/12 20:22:02 INFO streaming.StreamJob:  map 100%  reduce 62%
+15/02/12 20:22:22 INFO streaming.StreamJob:  map 100%  reduce 63%
+15/02/12 20:22:55 INFO streaming.StreamJob:  map 100%  reduce 64%
+15/02/12 20:24:10 INFO streaming.StreamJob:  map 100%  reduce 65%
+15/02/12 20:25:29 INFO streaming.StreamJob:  map 100%  reduce 66%
+15/02/12 20:27:03 INFO streaming.StreamJob:  map 100%  reduce 67%
+15/02/12 20:28:39 INFO streaming.StreamJob:  map 100%  reduce 68%
+15/02/12 20:29:10 INFO streaming.StreamJob:  map 100%  reduce 69%
+15/02/12 20:29:29 INFO streaming.StreamJob:  map 100%  reduce 70%
+15/02/12 20:29:40 INFO streaming.StreamJob:  map 100%  reduce 71%
+15/02/12 20:29:57 INFO streaming.StreamJob:  map 100%  reduce 72%
+15/02/12 20:30:16 INFO streaming.StreamJob:  map 100%  reduce 73%
+15/02/12 20:30:37 INFO streaming.StreamJob:  map 100%  reduce 74%
+15/02/12 20:31:00 INFO streaming.StreamJob:  map 100%  reduce 75%
+15/02/12 20:31:19 INFO streaming.StreamJob:  map 100%  reduce 76%
+15/02/12 20:31:46 INFO streaming.StreamJob:  map 100%  reduce 77%
+15/02/12 20:32:05 INFO streaming.StreamJob:  map 100%  reduce 78%
+15/02/12 20:32:23 INFO streaming.StreamJob:  map 100%  reduce 79%
+15/02/12 20:33:13 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/12 20:34:22 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/12 20:34:29 INFO streaming.StreamJob:  map 100%  reduce 80%
+15/02/12 20:35:27 INFO streaming.StreamJob:  map 100%  reduce 81%
+15/02/12 20:37:06 INFO streaming.StreamJob:  map 100%  reduce 82%
+15/02/12 20:37:32 INFO streaming.StreamJob:  map 100%  reduce 83%
+15/02/12 20:38:04 INFO streaming.StreamJob:  map 100%  reduce 84%
+15/02/12 20:39:05 INFO streaming.StreamJob:  map 100%  reduce 85%
+15/02/12 20:40:36 INFO streaming.StreamJob:  map 100%  reduce 86%
+15/02/12 20:42:04 INFO streaming.StreamJob:  map 100%  reduce 87%
+15/02/12 20:42:25 INFO streaming.StreamJob:  map 100%  reduce 88%
+15/02/12 20:42:43 INFO streaming.StreamJob:  map 100%  reduce 89%
+15/02/12 20:43:03 INFO streaming.StreamJob:  map 100%  reduce 90%
+15/02/12 20:43:51 INFO streaming.StreamJob:  map 100%  reduce 91%
+15/02/12 20:44:37 INFO streaming.StreamJob:  map 100%  reduce 92%
+15/02/12 20:44:51 INFO streaming.StreamJob:  map 100%  reduce 93%
+15/02/12 20:45:04 INFO streaming.StreamJob:  map 100%  reduce 94%
+15/02/12 20:45:13 INFO streaming.StreamJob:  map 100%  reduce 95%
+15/02/12 20:45:27 INFO streaming.StreamJob:  map 100%  reduce 96%
+15/02/12 20:45:44 INFO streaming.StreamJob:  map 100%  reduce 97%
+15/02/12 20:46:11 INFO streaming.StreamJob:  map 100%  reduce 98%
+15/02/12 20:47:24 INFO streaming.StreamJob:  map 100%  reduce 99%
+15/02/12 20:50:30 INFO streaming.StreamJob:  map 100%  reduce 100%
